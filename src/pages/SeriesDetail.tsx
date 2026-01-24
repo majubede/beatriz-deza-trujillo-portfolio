@@ -8,6 +8,7 @@ import doubleSelfImage from '@/assets/double-self.jpg';
 import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 import territoriosImage from '@/assets/territorios.jpg';
 import paisajesImage from '@/assets/paisajes.jpg';
+import walkingTogetherImage from '@/assets/walking-together.jpg';
 
 interface SeriesData {
   titleKey: string;
@@ -46,7 +47,7 @@ const seriesData: Record<string, SeriesData> = {
     yearKey: 'series.walking.year',
     textKey: 'series.walking.text',
     images: [
-      { src: doubleSelfImage, alt: 'Walking Together', caption: 'Walking Together, 2024' },
+      { src: walkingTogetherImage, alt: 'Walking Together', caption: 'Walking Together' },
     ],
   },
   'territorios': {
@@ -83,8 +84,7 @@ const SeriesDetail: React.FC = () => {
       <article className="container mx-auto px-6 py-16 md:py-24">
         {/* Header */}
         <header className="max-w-3xl mb-12 fade-in">
-          <h1 className="section-title mb-2">{t(series.titleKey)}</h1>
-          <p className="text-muted-foreground mb-6">{t(series.yearKey)}</p>
+          <h1 className="section-title mb-4">{t(series.titleKey)}</h1>
           <p className="body-curatorial">{t(series.textKey)}</p>
         </header>
 
