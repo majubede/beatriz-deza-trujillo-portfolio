@@ -87,6 +87,14 @@ const translations: Record<Language, Record<string, string>> = {
     'series.walking.year': '2024',
     'series.walking.text': 'Pieza individual sobre el caminar compartido y la compañía silenciosa.',
     
+    'series.territorios': 'Territorios',
+    'series.territorios.year': '2024',
+    'series.territorios.text': 'Espacios íntimos que narran historias silenciosas de pertenencia y memoria.',
+    
+    'series.paisajes': 'Paisajes',
+    'series.paisajes.year': '2024',
+    'series.paisajes.text': 'La mirada en movimiento: territorios que se desvanecen entre lo real y lo onírico.',
+    
     // Footer
     'footer.rights': 'Todos los derechos reservados',
     
@@ -171,6 +179,14 @@ const translations: Record<Language, Record<string, string>> = {
     'series.walking': 'Walking Together',
     'series.walking.year': '2024',
     'series.walking.text': 'A singular piece on shared walking and silent companionship.',
+    
+    'series.territorios': 'Territories',
+    'series.territorios.year': '2024',
+    'series.territorios.text': 'Intimate spaces that tell silent stories of belonging and memory.',
+    
+    'series.paisajes': 'Landscapes',
+    'series.paisajes.year': '2024',
+    'series.paisajes.text': 'The gaze in motion: territories dissolving between reality and dream.',
     
     // Footer
     'footer.rights': 'All rights reserved',
