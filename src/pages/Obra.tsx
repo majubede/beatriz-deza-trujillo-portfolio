@@ -6,6 +6,8 @@ import mujerXImage from '@/assets/mujer-x.jpg';
 import dreamRainImage from '@/assets/dream-rain.jpg';
 import doubleSelfImage from '@/assets/double-self.jpg';
 import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
+import territoriosImage from '@/assets/territorios.jpg';
+import paisajesImage from '@/assets/paisajes.jpg';
 
 const Obra: React.FC = () => {
   const { t } = useLanguage();
@@ -46,6 +48,20 @@ const Obra: React.FC = () => {
       year: t('series.walking.year'),
       description: t('series.walking.text'),
       thumbnailSrc: doubleSelfImage,
+    },
+    {
+      slug: 'territorios',
+      title: t('series.territorios'),
+      year: t('series.territorios.year'),
+      description: t('series.territorios.text'),
+      thumbnailSrc: territoriosImage,
+    },
+    {
+      slug: 'paisajes',
+      title: t('series.paisajes'),
+      year: t('series.paisajes.year'),
+      description: t('series.paisajes.text'),
+      thumbnailSrc: paisajesImage,
     },
   ];
 

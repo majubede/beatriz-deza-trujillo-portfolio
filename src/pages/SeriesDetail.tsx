@@ -6,6 +6,8 @@ import ImageGallery from '@/components/gallery/ImageGallery';
 import dreamRainImage from '@/assets/dream-rain.jpg';
 import doubleSelfImage from '@/assets/double-self.jpg';
 import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
+import territoriosImage from '@/assets/territorios.jpg';
+import paisajesImage from '@/assets/paisajes.jpg';
 
 interface SeriesData {
   titleKey: string;
@@ -45,6 +47,22 @@ const seriesData: Record<string, SeriesData> = {
     textKey: 'series.walking.text',
     images: [
       { src: doubleSelfImage, alt: 'Walking Together', caption: 'Walking Together, 2024' },
+    ],
+  },
+  'territorios': {
+    titleKey: 'series.territorios',
+    yearKey: 'series.territorios.year',
+    textKey: 'series.territorios.text',
+    images: [
+      { src: territoriosImage, alt: 'Territorios I', caption: 'Untitled I, 2024' },
+    ],
+  },
+  'paisajes': {
+    titleKey: 'series.paisajes',
+    yearKey: 'series.paisajes.year',
+    textKey: 'series.paisajes.text',
+    images: [
+      { src: paisajesImage, alt: 'Paisajes I', caption: 'Untitled I, 2024' },
     ],
   },
 };
