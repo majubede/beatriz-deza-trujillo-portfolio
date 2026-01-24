@@ -4,41 +4,61 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import ImageGallery from '@/components/gallery/ImageGallery';
 
+// Import Mujer X series images
+import serImage from '@/assets/mujerx/ser.jpg';
+import fragilImage from '@/assets/mujerx/fragil.jpg';
+import danaImage from '@/assets/mujerx/dana.jpg';
+import narcYYoImage from '@/assets/mujerx/narciso-y-yo.jpg';
+import suspendedImage from '@/assets/mujerx/suspended-germination.jpg';
+import deMiParaMiImage from '@/assets/mujerx/de-mi-para-mi.jpg';
+import hopeImage from '@/assets/mujerx/hope.jpg';
+import iHateMondaysImage from '@/assets/mujerx/i-hate-mondays.jpg';
+
 const MujerX: React.FC = () => {
   const { t } = useLanguage();
   const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('sequence');
 
-  // Placeholder images for Mujer X series
+  // Curated order: starting strong with identity themes, building through vulnerability
   const galleryImages = [
     {
-      src: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200&q=85',
-      alt: 'Mujer X - Portrait I',
-      caption: 'Untitled I, 2024',
+      src: serImage,
+      alt: 'Mujer X - Ser',
+      caption: 'Ser',
     },
     {
-      src: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=85',
-      alt: 'Mujer X - Portrait II',
-      caption: 'Untitled II, 2024',
+      src: fragilImage,
+      alt: 'Mujer X - Frágil',
+      caption: 'Frágil',
     },
     {
-      src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1200&q=85',
-      alt: 'Mujer X - Portrait III',
-      caption: 'Untitled III, 2024',
+      src: danaImage,
+      alt: 'Mujer X - Dana',
+      caption: 'Dana',
     },
     {
-      src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1200&q=85',
-      alt: 'Mujer X - Portrait IV',
-      caption: 'Untitled IV, 2024',
+      src: narcYYoImage,
+      alt: 'Mujer X - Narciso y yo',
+      caption: 'Narciso y yo',
     },
     {
-      src: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=1200&q=85',
-      alt: 'Mujer X - Portrait V',
-      caption: 'Untitled V, 2024',
+      src: suspendedImage,
+      alt: 'Mujer X - Suspended Germination',
+      caption: 'Suspended Germination',
     },
     {
-      src: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1200&q=85',
-      alt: 'Mujer X - Portrait VI',
-      caption: 'Untitled VI, 2024',
+      src: deMiParaMiImage,
+      alt: 'Mujer X - De mí para mí',
+      caption: 'De mí para mí',
+    },
+    {
+      src: hopeImage,
+      alt: 'Mujer X - Hope',
+      caption: 'Hope',
+    },
+    {
+      src: iHateMondaysImage,
+      alt: 'Mujer X - I Hate Mondays',
+      caption: 'I Hate Mondays',
     },
   ];
 
@@ -47,8 +67,7 @@ const MujerX: React.FC = () => {
       <article className="container mx-auto px-6 py-16 md:py-24">
         {/* Header */}
         <header className="max-w-3xl mb-12 fade-in">
-          <h1 className="section-title mb-2">{t('mujerx.title')}</h1>
-          <p className="text-muted-foreground mb-6">{t('mujerx.year')}</p>
+          <h1 className="section-title mb-4">{t('mujerx.title')}</h1>
           <p className="body-curatorial mb-4">{t('mujerx.short')}</p>
           <p className="body-curatorial">{t('mujerx.long')}</p>
         </header>
