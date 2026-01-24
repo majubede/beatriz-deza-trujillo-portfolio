@@ -4,6 +4,10 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import SeriesCard from '@/components/gallery/SeriesCard';
 import heroImage from '@/assets/hero-image.jpg';
+import mujerXImage from '@/assets/mujer-x.jpg';
+import dreamRainImage from '@/assets/dream-rain.jpg';
+import doubleSelfImage from '@/assets/double-self.jpg';
+import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 
 const Home: React.FC = () => {
   const { t } = useLanguage();
@@ -14,7 +18,7 @@ const Home: React.FC = () => {
       title: 'Mujer X',
       year: '2024',
       description: t('mujerx.short'),
-      thumbnailSrc: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&q=80',
+      thumbnailSrc: mujerXImage,
       featured: true,
     },
     {
@@ -22,21 +26,21 @@ const Home: React.FC = () => {
       title: t('series.dreamrain'),
       year: t('series.dreamrain.year'),
       description: t('series.dreamrain.text'),
-      thumbnailSrc: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80',
+      thumbnailSrc: dreamRainImage,
     },
     {
       slug: 'double-self',
       title: t('series.doubleself'),
       year: t('series.doubleself.year'),
       description: t('series.doubleself.text'),
-      thumbnailSrc: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80',
+      thumbnailSrc: doubleSelfImage,
     },
     {
       slug: 'ensayo-en-rosa',
       title: t('series.ensayo'),
       year: t('series.ensayo.year'),
       description: t('series.ensayo.text'),
-      thumbnailSrc: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=600&q=80',
+      thumbnailSrc: ensayoEnRosaImage,
     },
   ];
 
