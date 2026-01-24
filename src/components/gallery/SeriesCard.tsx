@@ -40,12 +40,9 @@ const SeriesCard: React.FC<SeriesCardProps> = ({
         )}
       </div>
       <div className="space-y-1">
-        <div className="flex items-baseline justify-between">
-          <h3 className="font-serif text-lg md:text-xl group-hover:opacity-70 transition-opacity duration-300">
-            {title}
-          </h3>
-          <span className="text-sm text-muted-foreground">{year}</span>
-        </div>
+        <h3 className="font-serif text-lg md:text-xl group-hover:opacity-70 transition-opacity duration-300">
+          {title}
+        </h3>
         <p className="text-sm text-muted-foreground line-clamp-2">{description}</p>
       </div>
     </Link>
