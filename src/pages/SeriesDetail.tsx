@@ -3,6 +3,9 @@ import { useParams, Navigate } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import ImageGallery from '@/components/gallery/ImageGallery';
+import dreamRainImage from '@/assets/dream-rain.jpg';
+import doubleSelfImage from '@/assets/double-self.jpg';
+import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 
 interface SeriesData {
   titleKey: string;
@@ -17,9 +20,7 @@ const seriesData: Record<string, SeriesData> = {
     yearKey: 'series.dreamrain.year',
     textKey: 'series.dreamrain.text',
     images: [
-      { src: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=85', alt: 'Dream Rain I', caption: 'Untitled I, 2024' },
-      { src: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1200&q=85', alt: 'Dream Rain II', caption: 'Untitled II, 2024' },
-      { src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1200&q=85', alt: 'Dream Rain III', caption: 'Untitled III, 2024' },
+      { src: dreamRainImage, alt: 'Dream Rain I', caption: 'Untitled I, 2024' },
     ],
   },
   'double-self': {
@@ -27,8 +28,7 @@ const seriesData: Record<string, SeriesData> = {
     yearKey: 'series.doubleself.year',
     textKey: 'series.doubleself.text',
     images: [
-      { src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1200&q=85', alt: 'Double Self I', caption: 'Untitled I, 2023' },
-      { src: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1200&q=85', alt: 'Double Self II', caption: 'Untitled II, 2023' },
+      { src: doubleSelfImage, alt: 'Double Self I', caption: 'Untitled I, 2023' },
     ],
   },
   'ensayo-en-rosa': {
@@ -36,8 +36,7 @@ const seriesData: Record<string, SeriesData> = {
     yearKey: 'series.ensayo.year',
     textKey: 'series.ensayo.text',
     images: [
-      { src: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=1200&q=85', alt: 'Ensayo en rosa I', caption: 'Untitled I, 2023' },
-      { src: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1200&q=85', alt: 'Ensayo en rosa II', caption: 'Untitled II, 2023' },
+      { src: ensayoEnRosaImage, alt: 'Ensayo en rosa I', caption: 'Untitled I, 2023' },
     ],
   },
   'walking-together': {
@@ -45,7 +44,7 @@ const seriesData: Record<string, SeriesData> = {
     yearKey: 'series.walking.year',
     textKey: 'series.walking.text',
     images: [
-      { src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1200&q=85', alt: 'Walking Together', caption: 'Walking Together, 2024' },
+      { src: doubleSelfImage, alt: 'Walking Together', caption: 'Walking Together, 2024' },
     ],
   },
 };
