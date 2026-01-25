@@ -24,7 +24,7 @@ const MujerX: React.FC = () => {
   const { t } = useLanguage();
   const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('sequence');
 
-  // Curated order: starting strong with identity themes, building through vulnerability
+  // Curated order: identity themes → vulnerability → social commentary → closing
   const galleryImages = [
     {
       src: serImage,
@@ -37,19 +37,9 @@ const MujerX: React.FC = () => {
       caption: 'Frágil',
     },
     {
-      src: danaImage,
-      alt: 'Mujer X - Dana',
-      caption: 'Dana',
-    },
-    {
       src: narcYYoImage,
       alt: 'Mujer X - Narciso y yo',
       caption: 'Narciso y yo',
-    },
-    {
-      src: suspendedImage,
-      alt: 'Mujer X - Suspended Germination',
-      caption: 'Suspended Germination',
     },
     {
       src: deMiParaMiImage,
@@ -57,9 +47,49 @@ const MujerX: React.FC = () => {
       caption: 'De mí para mí',
     },
     {
-      src: hopeImage,
-      alt: 'Mujer X - Hope',
-      caption: 'Hope',
+      src: flowersImage,
+      alt: 'Mujer X - Flowers',
+      caption: 'Flowers',
+    },
+    {
+      src: libertadImage,
+      alt: 'Mujer X - Libertad de pensamiento',
+      caption: 'Libertad de pensamiento',
+    },
+    {
+      src: suenosRotosImage,
+      alt: 'Mujer X - Sueños rotos',
+      caption: 'Sueños rotos',
+    },
+    {
+      src: saludMentalImage,
+      alt: 'Mujer X - Salud mental',
+      caption: 'Salud mental',
+    },
+    {
+      src: niUnaMasImage,
+      alt: 'Mujer X - Ni una más',
+      caption: 'Ni una más',
+    },
+    {
+      src: sinBateriaImage,
+      alt: 'Mujer X - Sin batería',
+      caption: 'Sin batería',
+    },
+    {
+      src: virgoImage,
+      alt: 'Mujer X - Virgo',
+      caption: 'Virgo',
+    },
+    {
+      src: danaImage,
+      alt: 'Mujer X - Dana',
+      caption: 'Dana',
+    },
+    {
+      src: suspendedImage,
+      alt: 'Mujer X - Suspended Germination',
+      caption: 'Suspended Germination',
     },
     {
       src: iHateMondaysImage,
