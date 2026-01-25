@@ -11,8 +11,14 @@ import danaImage from '@/assets/mujerx/dana.jpg';
 import narcYYoImage from '@/assets/mujerx/narciso-y-yo.jpg';
 import suspendedImage from '@/assets/mujerx/suspended-germination.jpg';
 import deMiParaMiImage from '@/assets/mujerx/de-mi-para-mi.jpg';
-import hopeImage from '@/assets/mujerx/hope.jpg';
 import iHateMondaysImage from '@/assets/mujerx/i-hate-mondays.jpg';
+import flowersImage from '@/assets/mujerx/flowers.jpg';
+import libertadImage from '@/assets/mujerx/libertad-de-pensamiento.jpg';
+import suenosRotosImage from '@/assets/mujerx/suenos-rotos.jpg';
+import niUnaMasImage from '@/assets/mujerx/ni-una-mas.jpg';
+import saludMentalImage from '@/assets/mujerx/salud-mental.jpg';
+import sinBateriaImage from '@/assets/mujerx/sin-bateria.jpg';
+import virgoImage from '@/assets/mujerx/virgo.jpg';
 
 const MujerX: React.FC = () => {
   const { t } = useLanguage();
