@@ -88,8 +88,8 @@ const MujerX: React.FC = () => {
     },
     {
       src: suspendedImage,
-      alt: 'Mujer X - Suspended Germination',
-      caption: 'Suspended Germination',
+      alt: 'Mujer X - Germinación suspendida',
+      caption: 'Germinación suspendida',
     },
     {
       src: iHateMondaysImage,
