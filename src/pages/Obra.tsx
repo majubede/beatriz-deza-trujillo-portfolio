@@ -8,6 +8,7 @@ import doubleSelfImage from '@/assets/double-self.jpg';
 import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 import territoriosImage from '@/assets/territorios.jpg';
 import paisajesImage from '@/assets/paisajes.jpg';
+import walkingTogetherImage from '@/assets/walking-together.jpg';
 
 const Obra: React.FC = () => {
   const { t } = useLanguage();
@@ -47,7 +48,7 @@ const Obra: React.FC = () => {
       title: t('series.walking'),
       year: t('series.walking.year'),
       description: t('series.walking.text'),
-      thumbnailSrc: doubleSelfImage,
+      thumbnailSrc: walkingTogetherImage,
     },
     {
       slug: 'territorios',
