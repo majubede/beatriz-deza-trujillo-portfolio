@@ -4,7 +4,18 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import ImageGallery from '@/components/gallery/ImageGallery';
 
-// Estados de Agua images (new)
+// Los que permanecen images (curated order: exterior → interior → portraits/memory)
+import lqpCalle from '@/assets/territorios/lqp-01-calle.jpg';
+import lqpPajaros from '@/assets/territorios/lqp-02-pajaros.jpg';
+import lqpRosas from '@/assets/territorios/lqp-03-rosas.jpg';
+import lqpMesaCamilla from '@/assets/territorios/lqp-04-mesacamilla.jpg';
+import lqpBodegon from '@/assets/territorios/lqp-05-bodegon.jpg';
+import lqpOliviaBano from '@/assets/territorios/lqp-06-olivia-bano.jpg';
+import lqpOliviaVentana from '@/assets/territorios/lqp-07-olivia-ventana.jpg';
+import lqpMario from '@/assets/territorios/lqp-08-mario.jpg';
+import lqpSaraOlivia from '@/assets/territorios/lqp-09-sara-olivia.jpg';
+
+// Estados de Agua images (correct order 1-6)
 import estadosAgua1 from '@/assets/territorios/estados-de-agua-new-1.jpg';
 import estadosAgua2 from '@/assets/territorios/estados-de-agua-new-2.jpg';
 import estadosAgua3 from '@/assets/territorios/estados-de-agua-new-3.jpg';
@@ -34,7 +45,17 @@ const Territorios: React.FC = () => {
     {
       slug: 'los-que-permanecen',
       title: 'Los que permanecen',
-      images: [],
+      images: [
+        { src: lqpCalle, alt: 'Calle principal' },
+        { src: lqpPajaros, alt: 'Pared con pájaros' },
+        { src: lqpRosas, alt: 'Rosas' },
+        { src: lqpMesaCamilla, alt: 'Mesa camilla' },
+        { src: lqpBodegon, alt: 'Bodegón cocina' },
+        { src: lqpOliviaBano, alt: 'Olivia en el baño' },
+        { src: lqpOliviaVentana, alt: 'Olivia ventana' },
+        { src: lqpMario, alt: 'Mario' },
+        { src: lqpSaraOlivia, alt: 'Sara y Olivia' },
+      ],
     },
     {
       slug: 'estados-de-agua',
