@@ -4,12 +4,20 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import ImageGallery from '@/components/gallery/ImageGallery';
 
-// Estados de Agua images
-import estadosAgua1 from '@/assets/territorios/estados-de-agua-1.jpg';
-import estadosAgua2 from '@/assets/territorios/estados-de-agua-2.jpg';
-import estadosAgua3 from '@/assets/territorios/estados-de-agua-3.jpg';
-import estadosAgua4 from '@/assets/territorios/estados-de-agua-4.jpg';
-import estadosAgua5 from '@/assets/territorios/estados-de-agua-5.jpg';
+// Estados de Agua images (new)
+import estadosAgua1 from '@/assets/territorios/estados-de-agua-new-1.jpg';
+import estadosAgua2 from '@/assets/territorios/estados-de-agua-new-2.jpg';
+import estadosAgua3 from '@/assets/territorios/estados-de-agua-new-3.jpg';
+import estadosAgua4 from '@/assets/territorios/estados-de-agua-new-4.jpg';
+import estadosAgua5 from '@/assets/territorios/estados-de-agua-new-5.jpg';
+import estadosAgua6 from '@/assets/territorios/estados-de-agua-new-6.jpg';
+
+// Boys Don't Cry images
+import boysDontCry1 from '@/assets/territorios/boys-dont-cry-1.jpg';
+import boysDontCry2 from '@/assets/territorios/boys-dont-cry-2.jpg';
+import boysDontCry3 from '@/assets/territorios/boys-dont-cry-3.jpg';
+import boysDontCry4 from '@/assets/territorios/boys-dont-cry-4.jpg';
+import boysDontCry5 from '@/assets/territorios/boys-dont-cry-5.jpg';
 
 interface Subseries {
   slug: string;
@@ -37,6 +45,7 @@ const Territorios: React.FC = () => {
         { src: estadosAgua3, alt: 'Estados de agua III', caption: 'III' },
         { src: estadosAgua4, alt: 'Estados de agua IV', caption: 'IV' },
         { src: estadosAgua5, alt: 'Estados de agua V', caption: 'V' },
+        { src: estadosAgua6, alt: 'Estados de agua VI', caption: 'VI' },
       ],
     },
     {
@@ -47,7 +56,13 @@ const Territorios: React.FC = () => {
     {
       slug: 'boys-dont-cry',
       title: "Boys don't cry",
-      images: [],
+      images: [
+        { src: boysDontCry1, alt: "Boys don't cry I", caption: 'I' },
+        { src: boysDontCry2, alt: "Boys don't cry II", caption: 'II' },
+        { src: boysDontCry3, alt: "Boys don't cry III", caption: 'III' },
+        { src: boysDontCry4, alt: "Boys don't cry IV", caption: 'IV' },
+        { src: boysDontCry5, alt: "Boys don't cry V", caption: 'V' },
+      ],
     },
     {
       slug: 'pool-story',
@@ -62,11 +77,6 @@ const Territorios: React.FC = () => {
     {
       slug: 'noche-de-procesion',
       title: 'Noche de procesión',
-      images: [],
-    },
-    {
-      slug: 'espera',
-      title: 'Espera',
       images: [],
     },
   ];
