@@ -6,7 +6,6 @@ import ImageGallery from '@/components/gallery/ImageGallery';
 import dreamRainImage from '@/assets/dream-rain.jpg';
 import doubleSelfImage from '@/assets/double-self.jpg';
 import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
-import territoriosImage from '@/assets/territorios.jpg';
 import paisajesImage from '@/assets/paisajes.jpg';
 import walkingTogetherImage from '@/assets/walking-together.jpg';
 
@@ -48,14 +47,6 @@ const seriesData: Record<string, SeriesData> = {
     textKey: 'series.walking.text',
     images: [
       { src: walkingTogetherImage, alt: 'Walking Together', caption: 'Walking Together' },
-    ],
-  },
-  'territorios': {
-    titleKey: 'series.territorios',
-    yearKey: 'series.territorios.year',
-    textKey: 'series.territorios.text',
-    images: [
-      { src: territoriosImage, alt: 'Territorios I', caption: 'Untitled I, 2024' },
     ],
   },
   'paisajes': {
