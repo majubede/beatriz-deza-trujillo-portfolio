@@ -7,6 +7,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 import Home from "./pages/Home";
 import Obra from "./pages/Obra";
 import MujerX from "./pages/MujerX";
+import Territorios from "./pages/Territorios";
 import About from "./pages/About";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/obra" element={<Obra />} />
             <Route path="/obra/:slug" element={<SeriesDetail />} />
             <Route path="/mujer-x" element={<MujerX />} />
+            <Route path="/territorios" element={<Territorios />} />
             <Route path="/sobre-mi" element={<About />} />
             <Route path="/cv" element={<CV />} />
             <Route path="/contacto" element={<Contact />} />
