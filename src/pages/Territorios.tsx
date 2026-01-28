@@ -30,6 +30,18 @@ import boysDontCry3 from '@/assets/territorios/boys-dont-cry-3.jpg';
 import boysDontCry4 from '@/assets/territorios/boys-dont-cry-4.jpg';
 import boysDontCry5 from '@/assets/territorios/boys-dont-cry-5.jpg';
 
+// Noche de procesión images
+import procesion01 from '@/assets/territorios/procesion-01.jpg';
+import procesion02 from '@/assets/territorios/procesion-02.jpg';
+import procesion03 from '@/assets/territorios/procesion-03.jpg';
+import procesion04 from '@/assets/territorios/procesion-04.jpg';
+import procesion05 from '@/assets/territorios/procesion-05.jpg';
+import procesion06 from '@/assets/territorios/procesion-06.jpg';
+import procesion07 from '@/assets/territorios/procesion-07.jpg';
+import procesion08 from '@/assets/territorios/procesion-08.jpg';
+import procesion09 from '@/assets/territorios/procesion-09.jpg';
+import procesion10 from '@/assets/territorios/procesion-10.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
@@ -98,7 +110,18 @@ const Territorios: React.FC = () => {
     {
       slug: 'noche-de-procesion',
       title: 'Noche de procesión',
-      images: [],
+      images: [
+        { src: procesion01, alt: 'Noche de procesión I', caption: 'I' },
+        { src: procesion02, alt: 'Noche de procesión II', caption: 'II' },
+        { src: procesion03, alt: 'Noche de procesión III', caption: 'III' },
+        { src: procesion04, alt: 'Noche de procesión IV', caption: 'IV' },
+        { src: procesion05, alt: 'Noche de procesión V', caption: 'V' },
+        { src: procesion06, alt: 'Noche de procesión VI', caption: 'VI' },
+        { src: procesion07, alt: 'Noche de procesión VII', caption: 'VII' },
+        { src: procesion08, alt: 'Noche de procesión VIII', caption: 'VIII' },
+        { src: procesion09, alt: 'Noche de procesión IX', caption: 'IX' },
+        { src: procesion10, alt: 'Noche de procesión X', caption: 'X' },
+      ],
     },
   ];
 

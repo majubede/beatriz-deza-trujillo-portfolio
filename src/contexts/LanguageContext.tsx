@@ -95,6 +95,14 @@ const translations: Record<Language, Record<string, string>> = {
     'series.paisajes.year': '2024',
     'series.paisajes.text': 'La mirada en movimiento: territorios que se desvanecen entre lo real y lo onírico.',
     
+    'series.autorretrato': 'Autorretrato',
+    'series.autorretrato.year': '2024',
+    'series.autorretrato.text': 'Exploración de la identidad propia a través del espejo y la cámara.',
+    
+    'series.gente': 'Gente',
+    'series.gente.year': '2024',
+    'series.gente.text': 'Retratos que capturan la esencia y las historias de quienes nos rodean.',
+    
     // Footer
     'footer.rights': 'Todos los derechos reservados',
     
@@ -187,6 +195,14 @@ const translations: Record<Language, Record<string, string>> = {
     'series.paisajes': 'Landscapes',
     'series.paisajes.year': '2024',
     'series.paisajes.text': 'The gaze in motion: territories dissolving between reality and dream.',
+    
+    'series.autorretrato': 'Self-Portrait',
+    'series.autorretrato.year': '2024',
+    'series.autorretrato.text': 'Exploring self-identity through the mirror and the camera.',
+    
+    'series.gente': 'People',
+    'series.gente.year': '2024',
+    'series.gente.text': 'Portraits capturing the essence and stories of those around us.',
     
     // Footer
     'footer.rights': 'All rights reserved',
