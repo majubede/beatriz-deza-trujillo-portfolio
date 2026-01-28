@@ -42,6 +42,13 @@ import procesion08 from '@/assets/territorios/procesion-08.jpg';
 import procesion09 from '@/assets/territorios/procesion-09.jpg';
 import procesion10 from '@/assets/territorios/procesion-10.jpg';
 
+// Capas de ausencia images
+import capasAusencia1 from '@/assets/territorios/capas-ausencia-1.jpg';
+import capasAusencia2 from '@/assets/territorios/capas-ausencia-2.jpg';
+import capasAusencia3 from '@/assets/territorios/capas-ausencia-3.jpg';
+import capasAusencia4 from '@/assets/territorios/capas-ausencia-4.jpg';
+import capasAusencia5 from '@/assets/territorios/capas-ausencia-5.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
