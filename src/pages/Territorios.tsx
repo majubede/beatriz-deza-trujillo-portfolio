@@ -91,7 +91,13 @@ const Territorios: React.FC = () => {
     {
       slug: 'capas-de-ausencia',
       title: 'Capas de ausencia',
-      images: [],
+      images: [
+        { src: capasAusencia1, alt: 'Capas de ausencia I', caption: 'I' },
+        { src: capasAusencia2, alt: 'Capas de ausencia II', caption: 'II' },
+        { src: capasAusencia3, alt: 'Capas de ausencia III', caption: 'III' },
+        { src: capasAusencia4, alt: 'Capas de ausencia IV', caption: 'IV' },
+        { src: capasAusencia5, alt: 'Capas de ausencia V', caption: 'V' },
+      ],
     },
     {
       slug: 'boys-dont-cry',
