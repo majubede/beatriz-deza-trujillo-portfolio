@@ -42,6 +42,13 @@ import procesion08 from '@/assets/territorios/procesion-08.jpg';
 import procesion09 from '@/assets/territorios/procesion-09.jpg';
 import procesion10 from '@/assets/territorios/procesion-10.jpg';
 
+// Capas de ausencia images
+import capasAusencia1 from '@/assets/territorios/capas-ausencia-1.jpg';
+import capasAusencia2 from '@/assets/territorios/capas-ausencia-2.jpg';
+import capasAusencia3 from '@/assets/territorios/capas-ausencia-3.jpg';
+import capasAusencia4 from '@/assets/territorios/capas-ausencia-4.jpg';
+import capasAusencia5 from '@/assets/territorios/capas-ausencia-5.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
@@ -84,7 +91,13 @@ const Territorios: React.FC = () => {
     {
       slug: 'capas-de-ausencia',
       title: 'Capas de ausencia',
-      images: [],
+      images: [
+        { src: capasAusencia1, alt: 'Capas de ausencia I', caption: 'I' },
+        { src: capasAusencia2, alt: 'Capas de ausencia II', caption: 'II' },
+        { src: capasAusencia3, alt: 'Capas de ausencia III', caption: 'III' },
+        { src: capasAusencia4, alt: 'Capas de ausencia IV', caption: 'IV' },
+        { src: capasAusencia5, alt: 'Capas de ausencia V', caption: 'V' },
+      ],
     },
     {
       slug: 'boys-dont-cry',
