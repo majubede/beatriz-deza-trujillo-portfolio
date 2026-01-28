@@ -5,11 +5,8 @@ import Layout from '@/components/layout/Layout';
 import SeriesCard from '@/components/gallery/SeriesCard';
 import heroImage from '@/assets/hero-image.jpg';
 import mujerXImage from '@/assets/mujer-x.jpg';
-import dreamRainImage from '@/assets/dream-rain.jpg';
 import doubleSelfImage from '@/assets/double-self.jpg';
-import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 import territoriosImage from '@/assets/territorios.jpg';
-import paisajesImage from '@/assets/paisajes.jpg';
 
 const Home: React.FC = () => {
   const { t } = useLanguage();
@@ -31,25 +28,11 @@ const Home: React.FC = () => {
       thumbnailSrc: territoriosImage,
     },
     {
-      slug: 'paisajes',
-      title: t('series.paisajes'),
-      year: t('series.paisajes.year'),
-      description: t('series.paisajes.text'),
-      thumbnailSrc: paisajesImage,
-    },
-    {
       slug: 'autorretrato',
       title: t('series.autorretrato'),
       year: t('series.autorretrato.year'),
       description: t('series.autorretrato.text'),
       thumbnailSrc: doubleSelfImage, // Placeholder - cambiar por imagen propia
-    },
-    {
-      slug: 'gente',
-      title: t('series.gente'),
-      year: t('series.gente.year'),
-      description: t('series.gente.text'),
-      thumbnailSrc: dreamRainImage, // Placeholder - cambiar por imagen propia
     },
   ];
 

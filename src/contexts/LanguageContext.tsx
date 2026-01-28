@@ -103,6 +103,14 @@ const translations: Record<Language, Record<string, string>> = {
     'series.gente.year': '2024',
     'series.gente.text': 'Retratos que capturan la esencia y las historias de quienes nos rodean.',
     
+    'series.colaboraciones': 'Colaboraciones',
+    'series.colaboraciones.year': '2024',
+    'series.colaboraciones.text': 'Proyectos realizados en colaboración con otros artistas y creadores.',
+    
+    'series.olivias': "Olivia's World",
+    'series.olivias.year': '2024',
+    'series.olivias.text': 'El universo visual de Olivia: infancia, juego y mirada.',
+    
     // Footer
     'footer.rights': 'Todos los derechos reservados',
     
@@ -203,6 +211,14 @@ const translations: Record<Language, Record<string, string>> = {
     'series.gente': 'People',
     'series.gente.year': '2024',
     'series.gente.text': 'Portraits capturing the essence and stories of those around us.',
+    
+    'series.colaboraciones': 'Collaborations',
+    'series.colaboraciones.year': '2024',
+    'series.colaboraciones.text': 'Projects created in collaboration with other artists and creators.',
+    
+    'series.olivias': "Olivia's World",
+    'series.olivias.year': '2024',
+    'series.olivias.text': "Olivia's visual universe: childhood, play, and perspective.",
     
     // Footer
     'footer.rights': 'All rights reserved',
