@@ -3,12 +3,10 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import SeriesCard from '@/components/gallery/SeriesCard';
 import mujerXImage from '@/assets/mujer-x.jpg';
-import dreamRainImage from '@/assets/dream-rain.jpg';
 import doubleSelfImage from '@/assets/double-self.jpg';
-import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 import territoriosImage from '@/assets/territorios.jpg';
 import paisajesImage from '@/assets/paisajes.jpg';
-import walkingTogetherImage from '@/assets/walking-together.jpg';
+import dreamRainImage from '@/assets/dream-rain.jpg';
 
 const Obra: React.FC = () => {
   const { t } = useLanguage();
@@ -23,34 +21,6 @@ const Obra: React.FC = () => {
       featured: true,
     },
     {
-      slug: 'dream-rain',
-      title: t('series.dreamrain'),
-      year: t('series.dreamrain.year'),
-      description: t('series.dreamrain.text'),
-      thumbnailSrc: dreamRainImage,
-    },
-    {
-      slug: 'double-self',
-      title: t('series.doubleself'),
-      year: t('series.doubleself.year'),
-      description: t('series.doubleself.text'),
-      thumbnailSrc: doubleSelfImage,
-    },
-    {
-      slug: 'ensayo-en-rosa',
-      title: t('series.ensayo'),
-      year: t('series.ensayo.year'),
-      description: t('series.ensayo.text'),
-      thumbnailSrc: ensayoEnRosaImage,
-    },
-    {
-      slug: 'walking-together',
-      title: t('series.walking'),
-      year: t('series.walking.year'),
-      description: t('series.walking.text'),
-      thumbnailSrc: walkingTogetherImage,
-    },
-    {
       slug: 'territorios',
       title: t('series.territorios'),
       year: t('series.territorios.year'),
@@ -58,11 +28,39 @@ const Obra: React.FC = () => {
       thumbnailSrc: territoriosImage,
     },
     {
+      slug: 'autorretrato',
+      title: t('series.autorretrato'),
+      year: t('series.autorretrato.year'),
+      description: t('series.autorretrato.text'),
+      thumbnailSrc: doubleSelfImage, // Placeholder
+    },
+    {
+      slug: 'gente',
+      title: t('series.gente'),
+      year: t('series.gente.year'),
+      description: t('series.gente.text'),
+      thumbnailSrc: dreamRainImage, // Placeholder
+    },
+    {
       slug: 'paisajes',
       title: t('series.paisajes'),
       year: t('series.paisajes.year'),
       description: t('series.paisajes.text'),
       thumbnailSrc: paisajesImage,
+    },
+    {
+      slug: 'colaboraciones',
+      title: t('series.colaboraciones'),
+      year: t('series.colaboraciones.year'),
+      description: t('series.colaboraciones.text'),
+      thumbnailSrc: dreamRainImage, // Placeholder
+    },
+    {
+      slug: 'olivias-world',
+      title: t('series.olivias'),
+      year: t('series.olivias.year'),
+      description: t('series.olivias.text'),
+      thumbnailSrc: doubleSelfImage, // Placeholder
     },
   ];
 
