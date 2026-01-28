@@ -24,27 +24,6 @@ const Home: React.FC = () => {
       featured: true,
     },
     {
-      slug: 'dream-rain',
-      title: t('series.dreamrain'),
-      year: t('series.dreamrain.year'),
-      description: t('series.dreamrain.text'),
-      thumbnailSrc: dreamRainImage,
-    },
-    {
-      slug: 'double-self',
-      title: t('series.doubleself'),
-      year: t('series.doubleself.year'),
-      description: t('series.doubleself.text'),
-      thumbnailSrc: doubleSelfImage,
-    },
-    {
-      slug: 'ensayo-en-rosa',
-      title: t('series.ensayo'),
-      year: t('series.ensayo.year'),
-      description: t('series.ensayo.text'),
-      thumbnailSrc: ensayoEnRosaImage,
-    },
-    {
       slug: 'territorios',
       title: t('series.territorios'),
       year: t('series.territorios.year'),
@@ -57,6 +36,20 @@ const Home: React.FC = () => {
       year: t('series.paisajes.year'),
       description: t('series.paisajes.text'),
       thumbnailSrc: paisajesImage,
+    },
+    {
+      slug: 'autorretrato',
+      title: t('series.autorretrato'),
+      year: t('series.autorretrato.year'),
+      description: t('series.autorretrato.text'),
+      thumbnailSrc: doubleSelfImage, // Placeholder - cambiar por imagen propia
+    },
+    {
+      slug: 'gente',
+      title: t('series.gente'),
+      year: t('series.gente.year'),
+      description: t('series.gente.text'),
+      thumbnailSrc: dreamRainImage, // Placeholder - cambiar por imagen propia
     },
   ];
 
