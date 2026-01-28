@@ -5,8 +5,8 @@ import Layout from '@/components/layout/Layout';
 import SeriesCard from '@/components/gallery/SeriesCard';
 import heroImage from '@/assets/hero-image.jpg';
 import mujerXImage from '@/assets/mujer-x.jpg';
-import doubleSelfImage from '@/assets/double-self.jpg';
 import territoriosImage from '@/assets/territorios.jpg';
+import autorretratoCoverImage from '@/assets/autorretrato-cover.jpg';
 
 const Home: React.FC = () => {
   const { t } = useLanguage();
@@ -32,7 +32,7 @@ const Home: React.FC = () => {
       title: t('series.autorretrato'),
       year: t('series.autorretrato.year'),
       description: t('series.autorretrato.text'),
-      thumbnailSrc: doubleSelfImage, // Placeholder - cambiar por imagen propia
+      thumbnailSrc: autorretratoCoverImage,
     },
   ];
 
