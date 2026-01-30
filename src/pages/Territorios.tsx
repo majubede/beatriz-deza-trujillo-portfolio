@@ -129,7 +129,13 @@ const Territorios: React.FC = () => {
     {
       slug: 'geografias-fugaces',
       title: 'Geografías fugaces',
-      images: [],
+      images: [
+        { src: geografiasFugaces1, alt: 'Geografías fugaces I' },
+        { src: geografiasFugaces2, alt: 'Geografías fugaces II' },
+        { src: geografiasFugaces3, alt: 'Geografías fugaces III' },
+        { src: geografiasFugaces4, alt: 'Geografías fugaces IV' },
+        { src: geografiasFugaces5, alt: 'Geografías fugaces V' },
+      ],
     },
     {
       slug: 'pool-story',
