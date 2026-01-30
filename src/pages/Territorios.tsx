@@ -58,6 +58,13 @@ import poolStory5 from '@/assets/territorios/pool-story-5.jpg';
 import poolStory6 from '@/assets/territorios/pool-story-6.jpg';
 import poolStory7 from '@/assets/territorios/pool-story-7.jpg';
 
+// Geografías fugaces images
+import geografiasFugaces1 from '@/assets/territorios/geografias-fugaces-1.jpg';
+import geografiasFugaces2 from '@/assets/territorios/geografias-fugaces-2.jpg';
+import geografiasFugaces3 from '@/assets/territorios/geografias-fugaces-3.jpg';
+import geografiasFugaces4 from '@/assets/territorios/geografias-fugaces-4.jpg';
+import geografiasFugaces5 from '@/assets/territorios/geografias-fugaces-5.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
