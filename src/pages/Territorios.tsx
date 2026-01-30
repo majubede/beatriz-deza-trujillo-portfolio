@@ -58,6 +58,13 @@ import poolStory5 from '@/assets/territorios/pool-story-5.jpg';
 import poolStory6 from '@/assets/territorios/pool-story-6.jpg';
 import poolStory7 from '@/assets/territorios/pool-story-7.jpg';
 
+// Geografías fugaces images
+import geografiasFugaces1 from '@/assets/territorios/geografias-fugaces-1.jpg';
+import geografiasFugaces2 from '@/assets/territorios/geografias-fugaces-2.jpg';
+import geografiasFugaces3 from '@/assets/territorios/geografias-fugaces-3.jpg';
+import geografiasFugaces4 from '@/assets/territorios/geografias-fugaces-4.jpg';
+import geografiasFugaces5 from '@/assets/territorios/geografias-fugaces-5.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
@@ -122,7 +129,13 @@ const Territorios: React.FC = () => {
     {
       slug: 'geografias-fugaces',
       title: 'Geografías fugaces',
-      images: [],
+      images: [
+        { src: geografiasFugaces1, alt: 'Geografías fugaces I' },
+        { src: geografiasFugaces2, alt: 'Geografías fugaces II' },
+        { src: geografiasFugaces3, alt: 'Geografías fugaces III' },
+        { src: geografiasFugaces4, alt: 'Geografías fugaces IV' },
+        { src: geografiasFugaces5, alt: 'Geografías fugaces V' },
+      ],
     },
     {
       slug: 'pool-story',
