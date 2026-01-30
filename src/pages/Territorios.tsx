@@ -49,6 +49,15 @@ import capasAusencia3 from '@/assets/territorios/capas-ausencia-3.jpg';
 import capasAusencia4 from '@/assets/territorios/capas-ausencia-4.jpg';
 import capasAusencia5 from '@/assets/territorios/capas-ausencia-5.jpg';
 
+// Pool Story images
+import poolStory1 from '@/assets/territorios/pool-story-1.jpg';
+import poolStory2 from '@/assets/territorios/pool-story-2.jpg';
+import poolStory3 from '@/assets/territorios/pool-story-3.jpg';
+import poolStory4 from '@/assets/territorios/pool-story-4.jpg';
+import poolStory5 from '@/assets/territorios/pool-story-5.jpg';
+import poolStory6 from '@/assets/territorios/pool-story-6.jpg';
+import poolStory7 from '@/assets/territorios/pool-story-7.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
