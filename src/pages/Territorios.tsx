@@ -49,6 +49,15 @@ import capasAusencia3 from '@/assets/territorios/capas-ausencia-3.jpg';
 import capasAusencia4 from '@/assets/territorios/capas-ausencia-4.jpg';
 import capasAusencia5 from '@/assets/territorios/capas-ausencia-5.jpg';
 
+// Pool Story images
+import poolStory1 from '@/assets/territorios/pool-story-1.jpg';
+import poolStory2 from '@/assets/territorios/pool-story-2.jpg';
+import poolStory3 from '@/assets/territorios/pool-story-3.jpg';
+import poolStory4 from '@/assets/territorios/pool-story-4.jpg';
+import poolStory5 from '@/assets/territorios/pool-story-5.jpg';
+import poolStory6 from '@/assets/territorios/pool-story-6.jpg';
+import poolStory7 from '@/assets/territorios/pool-story-7.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
@@ -118,7 +127,15 @@ const Territorios: React.FC = () => {
     {
       slug: 'pool-story',
       title: 'Pool Story',
-      images: [],
+      images: [
+        { src: poolStory1, alt: 'Pool Story I' },
+        { src: poolStory2, alt: 'Pool Story II' },
+        { src: poolStory3, alt: 'Pool Story III' },
+        { src: poolStory4, alt: 'Pool Story IV' },
+        { src: poolStory5, alt: 'Pool Story V' },
+        { src: poolStory6, alt: 'Pool Story VI' },
+        { src: poolStory7, alt: 'Pool Story VII' },
+      ],
     },
     {
       slug: 'dia-en-titulcia',
