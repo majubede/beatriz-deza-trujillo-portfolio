@@ -127,7 +127,15 @@ const Territorios: React.FC = () => {
     {
       slug: 'pool-story',
       title: 'Pool Story',
-      images: [],
+      images: [
+        { src: poolStory1, alt: 'Pool Story I' },
+        { src: poolStory2, alt: 'Pool Story II' },
+        { src: poolStory3, alt: 'Pool Story III' },
+        { src: poolStory4, alt: 'Pool Story IV' },
+        { src: poolStory5, alt: 'Pool Story V' },
+        { src: poolStory6, alt: 'Pool Story VI' },
+        { src: poolStory7, alt: 'Pool Story VII' },
+      ],
     },
     {
       slug: 'dia-en-titulcia',
