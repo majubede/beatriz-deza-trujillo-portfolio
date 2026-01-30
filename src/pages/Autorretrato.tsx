@@ -65,7 +65,7 @@ const Autorretrato: React.FC = () => {
 
         {/* Gallery */}
         <div className="max-w-4xl mx-auto fade-in-up">
-          <ImageGallery images={images} mode={viewMode} showCaptions />
+          <ImageGallery images={images} mode={viewMode} showCaptions={false} />
         </div>
 
         {/* Back to Obra */}
