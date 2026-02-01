@@ -176,6 +176,13 @@ const Territorios: React.FC = () => {
         { src: procesion08, alt: 'Noche de procesión VIII', caption: 'VIII' },
         { src: procesion09, alt: 'Noche de procesión IX', caption: 'IX' },
         { src: procesion10, alt: 'Noche de procesión X', caption: 'X' },
+        { src: procesion11, alt: 'Noche de procesión XI', caption: 'XI' },
+        { src: procesion12, alt: 'Noche de procesión XII', caption: 'XII' },
+        { src: procesion13, alt: 'Noche de procesión XIII', caption: 'XIII' },
+        { src: procesion14, alt: 'Noche de procesión XIV', caption: 'XIV' },
+        { src: procesion15, alt: 'Noche de procesión XV', caption: 'XV' },
+        { src: procesion16, alt: 'Noche de procesión XVI', caption: 'XVI' },
+        { src: procesion17, alt: 'Noche de procesión XVII', caption: 'XVII' },
       ],
     },
   ];
