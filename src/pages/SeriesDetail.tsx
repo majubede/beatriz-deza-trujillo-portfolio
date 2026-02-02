@@ -9,6 +9,11 @@ import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 import paisajesImage from '@/assets/paisajes.jpg';
 import walkingTogetherImage from '@/assets/walking-together.jpg';
 
+// Colaboraciones images
+import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
+import vientoSinNorteImage from '@/assets/colaboraciones/viento-sin-norte.jpg';
+import walkingTogetherColabImage from '@/assets/colaboraciones/walking-together.jpg';
+
 interface SeriesData {
   titleKey: string;
   yearKey: string;
@@ -55,6 +60,16 @@ const seriesData: Record<string, SeriesData> = {
     textKey: 'series.paisajes.text',
     images: [
       { src: paisajesImage, alt: 'Paisajes I', caption: 'Untitled I, 2024' },
+    ],
+  },
+  'colaboraciones': {
+    titleKey: 'series.colaboraciones',
+    yearKey: 'series.colaboraciones.year',
+    textKey: 'series.colaboraciones.text',
+    images: [
+      { src: laGrietaReinaImage, alt: 'La grieta reina - Arantza Álava', caption: 'La grieta reina - Arantza Álava' },
+      { src: vientoSinNorteImage, alt: 'Viento sin norte - Arantza Álava', caption: 'Viento sin norte - Arantza Álava' },
+      { src: walkingTogetherColabImage, alt: 'Walking Together', caption: 'Walking Together' },
     ],
   },
 };
