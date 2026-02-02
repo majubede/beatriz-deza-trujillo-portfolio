@@ -14,6 +14,15 @@ import lqpOliviaBano from '@/assets/territorios/lqp-06-olivia-bano.jpg';
 import lqpOliviaVentana from '@/assets/territorios/lqp-07-olivia-ventana.jpg';
 import lqpMario from '@/assets/territorios/lqp-08-mario.jpg';
 import lqpSaraOlivia from '@/assets/territorios/lqp-09-sara-olivia.jpg';
+import lqpPuente from '@/assets/territorios/lqp-10-puente.jpg';
+import lqpOliviaPorche from '@/assets/territorios/lqp-11-olivia-porche.jpg';
+import lqpSombrilla from '@/assets/territorios/lqp-12-sombrilla.jpg';
+import lqpOliviaCortina from '@/assets/territorios/lqp-13-olivia-cortina.jpg';
+import lqpOmar from '@/assets/territorios/lqp-14-omar.jpg';
+import lqpJuanito from '@/assets/territorios/lqp-15-juanito.jpg';
+import lqpCocina from '@/assets/territorios/lqp-16-cocina.jpg';
+import lqpPuertaBano from '@/assets/territorios/lqp-17-puerta-bano.jpg';
+import lqpAmapolas from '@/assets/territorios/lqp-18-amapolas.jpg';
 
 // Estados de Agua images (correct order 1-6)
 import estadosAgua1 from '@/assets/territorios/estados-de-agua-new-1.jpg';
@@ -97,6 +106,15 @@ const Territorios: React.FC = () => {
         { src: lqpOliviaVentana, alt: 'Olivia ventana' },
         { src: lqpMario, alt: 'Mario' },
         { src: lqpSaraOlivia, alt: 'Sara y Olivia' },
+        { src: lqpPuente, alt: 'Puente doble exposición' },
+        { src: lqpOliviaPorche, alt: 'Olivia porche' },
+        { src: lqpSombrilla, alt: 'Sombrilla flores' },
+        { src: lqpOliviaCortina, alt: 'Olivia cortina' },
+        { src: lqpOmar, alt: 'Omar' },
+        { src: lqpJuanito, alt: 'Juanito garaje' },
+        { src: lqpCocina, alt: 'Cocina tostadas' },
+        { src: lqpPuertaBano, alt: 'Puerta baño' },
+        { src: lqpAmapolas, alt: 'Amapolas' },
       ],
     },
     {
