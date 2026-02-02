@@ -41,13 +41,13 @@ import procesion07 from '@/assets/territorios/procesion-07.jpg';
 import procesion08 from '@/assets/territorios/procesion-08.jpg';
 import procesion09 from '@/assets/territorios/procesion-09.jpg';
 import procesion10 from '@/assets/territorios/procesion-10.jpg';
-import procesion11 from '@/assets/territorios/procesion-11.jpg';
 import procesion12 from '@/assets/territorios/procesion-12.jpg';
 import procesion13 from '@/assets/territorios/procesion-13.jpg';
 import procesion14 from '@/assets/territorios/procesion-14.jpg';
 import procesion15 from '@/assets/territorios/procesion-15.jpg';
 import procesion16 from '@/assets/territorios/procesion-16.jpg';
 import procesion17 from '@/assets/territorios/procesion-17.jpg';
+import procesion18 from '@/assets/territorios/procesion-18.jpg';
 
 // Capas de ausencia images
 import capasAusencia1 from '@/assets/territorios/capas-ausencia-1.jpg';
@@ -176,13 +176,13 @@ const Territorios: React.FC = () => {
         { src: procesion08, alt: 'Noche de procesión VIII', caption: 'VIII' },
         { src: procesion09, alt: 'Noche de procesión IX', caption: 'IX' },
         { src: procesion10, alt: 'Noche de procesión X', caption: 'X' },
-        { src: procesion11, alt: 'Noche de procesión XI', caption: 'XI' },
         { src: procesion12, alt: 'Noche de procesión XII', caption: 'XII' },
         { src: procesion13, alt: 'Noche de procesión XIII', caption: 'XIII' },
         { src: procesion14, alt: 'Noche de procesión XIV', caption: 'XIV' },
         { src: procesion15, alt: 'Noche de procesión XV', caption: 'XV' },
         { src: procesion16, alt: 'Noche de procesión XVI', caption: 'XVI' },
         { src: procesion17, alt: 'Noche de procesión XVII', caption: 'XVII' },
+        { src: procesion18, alt: 'Noche de procesión XVIII', caption: 'XVIII' },
       ],
     },
   ];
