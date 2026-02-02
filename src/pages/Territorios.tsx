@@ -23,6 +23,16 @@ import lqpJuanito from '@/assets/territorios/lqp-15-juanito.jpg';
 import lqpCocina from '@/assets/territorios/lqp-16-cocina.jpg';
 import lqpPuertaBano from '@/assets/territorios/lqp-17-puerta-bano.jpg';
 import lqpAmapolas from '@/assets/territorios/lqp-18-amapolas.jpg';
+import lqpCorreos from '@/assets/territorios/lqp-19-correos.jpg';
+import lqpFarmacia from '@/assets/territorios/lqp-20-farmacia.jpg';
+import lqpEstanco from '@/assets/territorios/lqp-21-estanco.jpg';
+import lqpSaco from '@/assets/territorios/lqp-22-saco.jpg';
+import lqpTorre from '@/assets/territorios/lqp-23-torre.jpg';
+import lqpPrimos from '@/assets/territorios/lqp-24-primos.jpg';
+import lqpPrimasGaraje from '@/assets/territorios/lqp-25-primas-garaje.jpg';
+import lqpSaraCortina from '@/assets/territorios/lqp-26-sara-cortina.jpg';
+import lqpPlatos from '@/assets/territorios/lqp-27-platos.jpg';
+import lqpHerramientas from '@/assets/territorios/lqp-28-herramientas.jpg';
 
 // Estados de Agua images (correct order 1-6)
 import estadosAgua1 from '@/assets/territorios/estados-de-agua-new-1.jpg';
@@ -115,6 +125,16 @@ const Territorios: React.FC = () => {
         { src: lqpCocina, alt: 'Cocina tostadas' },
         { src: lqpPuertaBano, alt: 'Puerta baño' },
         { src: lqpAmapolas, alt: 'Amapolas' },
+        { src: lqpCorreos, alt: 'Correos' },
+        { src: lqpFarmacia, alt: 'Farmacia' },
+        { src: lqpEstanco, alt: 'Estanco' },
+        { src: lqpSaco, alt: 'Saco malas hierbas' },
+        { src: lqpTorre, alt: 'Torre' },
+        { src: lqpPrimos, alt: 'Primos' },
+        { src: lqpPrimasGaraje, alt: 'Primas Sara y Olivia garaje' },
+        { src: lqpSaraCortina, alt: 'Sara cortina' },
+        { src: lqpPlatos, alt: 'Platos' },
+        { src: lqpHerramientas, alt: 'Herramientas' },
       ],
     },
     {
