@@ -45,6 +45,7 @@ const CV: React.FC = () => {
 
   const publications: CVItem[] = [
     { year: '2026', title: language === 'es' ? 'Portada — La grieta reina' : 'Cover — La grieta reina' },
+    { year: '2025', title: 'Desphotomag TopBest Magazine — Q3 2025' },
     { year: '2023', title: language === 'es' ? 'Portada — Viento sin norte' : 'Cover — Viento sin norte' },
   ];
 
