@@ -91,6 +91,14 @@ import geografiasFugaces3 from '@/assets/territorios/geografias-fugaces-3.jpg';
 import geografiasFugaces4 from '@/assets/territorios/geografias-fugaces-4.jpg';
 import geografiasFugaces5 from '@/assets/territorios/geografias-fugaces-5.jpg';
 
+// Día en Titulcia images
+import titulcia1 from '@/assets/territorios/titulcia-1.jpg';
+import titulcia2 from '@/assets/territorios/titulcia-2.jpg';
+import titulcia3 from '@/assets/territorios/titulcia-3.jpg';
+import titulcia4 from '@/assets/territorios/titulcia-4.jpg';
+import titulcia5 from '@/assets/territorios/titulcia-5.jpg';
+import titulcia6 from '@/assets/territorios/titulcia-6.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
@@ -198,7 +206,14 @@ const Territorios: React.FC = () => {
     {
       slug: 'dia-en-titulcia',
       title: 'Día en Titulcia',
-      images: [],
+      images: [
+        { src: titulcia1, alt: 'Día en Titulcia I', caption: 'I' },
+        { src: titulcia2, alt: 'Día en Titulcia II', caption: 'II' },
+        { src: titulcia3, alt: 'Día en Titulcia III', caption: 'III' },
+        { src: titulcia4, alt: 'Día en Titulcia IV', caption: 'IV' },
+        { src: titulcia5, alt: 'Día en Titulcia V', caption: 'V' },
+        { src: titulcia6, alt: 'Día en Titulcia VI', caption: 'VI' },
+      ],
     },
     {
       slug: 'noche-de-procesion',
