@@ -19,6 +19,9 @@ import niUnaMasImage from '@/assets/mujerx/ni-una-mas.jpg';
 import saludMentalImage from '@/assets/mujerx/salud-mental.jpg';
 import sinBateriaImage from '@/assets/mujerx/sin-bateria.jpg';
 import virgoImage from '@/assets/mujerx/virgo.jpg';
+import enraizarImage from '@/assets/mujerx/enraizar.jpg';
+import nidoVacioImage from '@/assets/mujerx/nido-vacio.jpg';
+import raizImage from '@/assets/mujerx/raiz.jpg';
 
 const MujerX: React.FC = () => {
   const { t } = useLanguage();
@@ -95,6 +98,21 @@ const MujerX: React.FC = () => {
       src: iHateMondaysImage,
       alt: 'Mujer X - I Hate Mondays',
       caption: 'I Hate Mondays',
+    },
+    {
+      src: enraizarImage,
+      alt: 'Mujer X - Enraizar',
+      caption: 'Enraizar',
+    },
+    {
+      src: nidoVacioImage,
+      alt: 'Mujer X - Nido vacío',
+      caption: 'Nido vacío',
+    },
+    {
+      src: raizImage,
+      alt: 'Mujer X - Raíz',
+      caption: 'Raíz',
     },
   ];
 
