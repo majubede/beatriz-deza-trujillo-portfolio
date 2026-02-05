@@ -139,7 +139,7 @@ const Contact: React.FC = () => {
 
           {/* Email fallback */}
           <p className="mt-8 text-center text-sm text-muted-foreground">
-            beatriz@example.com
+            beatrizdezaphoto@gmail.com
           </p>
         </div>
       </article>
