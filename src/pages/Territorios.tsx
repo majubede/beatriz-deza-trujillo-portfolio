@@ -99,6 +99,14 @@ import titulcia4 from '@/assets/territorios/titulcia-4.jpg';
 import titulcia5 from '@/assets/territorios/titulcia-5.jpg';
 import titulcia6 from '@/assets/territorios/titulcia-6.jpg';
 
+// Barbie y sus amigos images
+import barbieAmigos1 from '@/assets/territorios/barbie-y-sus-amigos-1.jpg';
+import barbieAmigos2 from '@/assets/territorios/barbie-y-sus-amigos-2.jpg';
+import barbieAmigos3 from '@/assets/territorios/barbie-y-sus-amigos-3.jpg';
+import barbieAmigos4 from '@/assets/territorios/barbie-y-sus-amigos-4.jpg';
+import barbieAmigos5 from '@/assets/territorios/barbie-y-sus-amigos-5.jpg';
+import barbieAmigos6 from '@/assets/territorios/barbie-y-sus-amigos-6.jpg';
+
 interface Subseries {
   slug: string;
   title: string;
@@ -207,6 +215,18 @@ const Territorios: React.FC = () => {
         { src: poolStory5, alt: 'Pool Story V' },
         { src: poolStory6, alt: 'Pool Story VI' },
         { src: poolStory7, alt: 'Pool Story VII' },
+      ],
+    },
+    {
+      slug: 'barbie-y-sus-amigos',
+      title: 'Barbie y sus amigos',
+      images: [
+        { src: barbieAmigos1, alt: 'Barbie y sus amigos I', caption: 'I' },
+        { src: barbieAmigos2, alt: 'Barbie y sus amigos II', caption: 'II' },
+        { src: barbieAmigos3, alt: 'Barbie y sus amigos III', caption: 'III' },
+        { src: barbieAmigos4, alt: 'Barbie y sus amigos IV', caption: 'IV' },
+        { src: barbieAmigos5, alt: 'Barbie y sus amigos V', caption: 'V' },
+        { src: barbieAmigos6, alt: 'Barbie y sus amigos VI', caption: 'VI' },
       ],
     },
     {
