@@ -200,7 +200,7 @@ const translations: Record<Language, Record<string, string>> = {
     'series.territorios.year': '2024',
     'series.territorios.text': 'Intimate spaces that tell silent stories of belonging and memory.',
     
-    'series.paisajes': 'Stages',
+    'series.paisajes': 'Scenarios',
     'series.paisajes.year': '2024',
     'series.paisajes.text': 'The gaze in motion: territories dissolving between reality and dream.',
     
