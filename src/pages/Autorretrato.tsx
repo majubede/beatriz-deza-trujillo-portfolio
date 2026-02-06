@@ -39,7 +39,7 @@ const Autorretrato: React.FC = () => {
         {/* Header */}
         <header className="max-w-3xl mb-12 fade-in">
           <h1 className="section-title mb-4">{t('series.autorretrato')}</h1>
-          <p className="body-curatorial">{t('series.autorretrato.text')}</p>
+          <p className="body-curatorial whitespace-pre-line">{t('series.autorretrato.text')}</p>
         </header>
 
         {/* View Mode Toggle */}

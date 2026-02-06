@@ -97,7 +97,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     'series.autorretrato': 'Autorretrato',
     'series.autorretrato.year': '2024',
-    'series.autorretrato.text': 'Exploración de la identidad propia a través del espejo y la cámara.',
+    'series.autorretrato.text': 'Utilizo el autorretrato como un espacio de ensayo y desplazamiento. No me interesa la representación fiel, sino la posibilidad de convertirme en símbolo: ocultar, fragmentar o transformar el rostro para hablar de identidad, de lo que se muestra y de lo que se protege.\n\nTrabajo con objetos cotidianos, gestos mínimos y pequeños desvíos visuales que introducen distancia y, a veces, humor. El cuerpo aparece como soporte y escenario, más que como afirmación, permitiendo que la imagen se abra a múltiples lecturas.\n\nEstas fotografías no buscan narrar una biografía, sino activar preguntas. El autorretrato funciona aquí como una herramienta para observarme desde fuera y, al mismo tiempo, invitar a quien mira a reconocerse en la imagen.',
     
     'series.gente': 'Presencias',
     'series.gente.year': '2024',
@@ -206,7 +206,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     'series.autorretrato': 'Self-Portrait',
     'series.autorretrato.year': '2024',
-    'series.autorretrato.text': 'Exploring self-identity through the mirror and the camera.',
+    'series.autorretrato.text': 'I use self-portraiture as a space for experimentation and displacement. I am not interested in faithful representation, but in becoming a symbol: concealing, fragmenting, or transforming the face to speak about identity, about what is shown and what is protected.\n\nI work with everyday objects, minimal gestures, and subtle visual shifts that create distance and, at times, a restrained sense of humor. The body appears as a support and a stage rather than an assertion, allowing the image to remain open to multiple readings.\n\nThese photographs do not aim to narrate a biography, but to activate questions. Here, self-portraiture becomes a tool to observe myself from the outside while inviting the viewer to recognize themselves within the image.',
     
     'series.gente': 'Presences',
     'series.gente.year': '2024',
