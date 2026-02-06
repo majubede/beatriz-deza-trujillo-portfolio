@@ -116,7 +116,7 @@ interface Subseries {
 const Territorios: React.FC = () => {
   const { t } = useLanguage();
   const [expandedSubseries, setExpandedSubseries] = useState<string | null>(null);
-  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('sequence');
+  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('grid');
 
   const subseries: Subseries[] = [
     {

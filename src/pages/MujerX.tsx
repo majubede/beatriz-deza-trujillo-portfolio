@@ -25,7 +25,7 @@ import raizImage from '@/assets/mujerx/raiz.jpg';
 
 const MujerX: React.FC = () => {
   const { t } = useLanguage();
-  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('sequence');
+  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('grid');
 
   // Curated order: identity themes → vulnerability → social commentary → closing
   const galleryImages = [
