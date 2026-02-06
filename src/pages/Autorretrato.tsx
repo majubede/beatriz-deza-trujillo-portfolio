@@ -18,7 +18,7 @@ import oukaLelee from '@/assets/autorretrato/ouka-lelee.jpg';
 
 const Autorretrato: React.FC = () => {
   const { t } = useLanguage();
-  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('sequence');
+  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('grid');
 
   const images = [
     { src: manosSilencio, alt: 'Manos silencio', caption: 'Manos silencio' },

@@ -77,7 +77,7 @@ const seriesData: Record<string, SeriesData> = {
 const SeriesDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const { t } = useLanguage();
-  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('sequence');
+  const [viewMode, setViewMode] = useState<'sequence' | 'grid'>('grid');
 
   if (!slug || !seriesData[slug]) {
     return <Navigate to="/obra" replace />;
