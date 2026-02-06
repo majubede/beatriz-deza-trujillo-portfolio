@@ -52,10 +52,10 @@ const Home: React.FC = () => {
 
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6 fade-in-up">
-          <h1 className="hero-title mb-6">
+          <h1 className="hero-title mb-6 whitespace-pre-line">
             {t('home.hero.title')}
           </h1>
-          <p className="hero-subtitle max-w-2xl mx-auto mb-10">
+          <p className="hero-subtitle max-w-2xl mx-auto mb-10 whitespace-pre-line">
             {t('home.hero.subtitle')}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
