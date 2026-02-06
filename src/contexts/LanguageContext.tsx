@@ -91,7 +91,7 @@ const translations: Record<Language, Record<string, string>> = {
     'series.territorios.year': '2024',
     'series.territorios.text': 'Espacios íntimos que narran historias silenciosas de pertenencia y memoria.',
     
-    'series.paisajes': 'Paisajes',
+    'series.paisajes': 'Escenarios',
     'series.paisajes.year': '2024',
     'series.paisajes.text': 'La mirada en movimiento: territorios que se desvanecen entre lo real y lo onírico.',
     
@@ -99,7 +99,7 @@ const translations: Record<Language, Record<string, string>> = {
     'series.autorretrato.year': '2024',
     'series.autorretrato.text': 'Exploración de la identidad propia a través del espejo y la cámara.',
     
-    'series.gente': 'Gente',
+    'series.gente': 'Presencias',
     'series.gente.year': '2024',
     'series.gente.text': 'Retratos que capturan la esencia y las historias de quienes nos rodean.',
     
@@ -107,7 +107,7 @@ const translations: Record<Language, Record<string, string>> = {
     'series.colaboraciones.year': '2024',
     'series.colaboraciones.text': 'Proyectos realizados en colaboración con otros artistas y creadores.',
     
-    'series.olivias': "Olivia's World",
+    'series.olivias': 'Infancia',
     'series.olivias.year': '2024',
     'series.olivias.text': 'El universo visual de Olivia: infancia, juego y mirada.',
     
@@ -200,7 +200,7 @@ const translations: Record<Language, Record<string, string>> = {
     'series.territorios.year': '2024',
     'series.territorios.text': 'Intimate spaces that tell silent stories of belonging and memory.',
     
-    'series.paisajes': 'Landscapes',
+    'series.paisajes': 'Stages',
     'series.paisajes.year': '2024',
     'series.paisajes.text': 'The gaze in motion: territories dissolving between reality and dream.',
     
@@ -208,7 +208,7 @@ const translations: Record<Language, Record<string, string>> = {
     'series.autorretrato.year': '2024',
     'series.autorretrato.text': 'Exploring self-identity through the mirror and the camera.',
     
-    'series.gente': 'People',
+    'series.gente': 'Presences',
     'series.gente.year': '2024',
     'series.gente.text': 'Portraits capturing the essence and stories of those around us.',
     
@@ -216,7 +216,7 @@ const translations: Record<Language, Record<string, string>> = {
     'series.colaboraciones.year': '2024',
     'series.colaboraciones.text': 'Projects created in collaboration with other artists and creators.',
     
-    'series.olivias': "Olivia's World",
+    'series.olivias': 'Childhood',
     'series.olivias.year': '2024',
     'series.olivias.text': "Olivia's visual universe: childhood, play, and perspective.",
     
