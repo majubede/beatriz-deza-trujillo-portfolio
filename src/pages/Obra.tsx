@@ -58,7 +58,7 @@ const Obra: React.FC = () => {
       thumbnailSrc: walkingTogetherImage,
     },
     {
-      slug: 'olivias-world',
+      slug: 'infancia',
       title: t('series.olivias'),
       year: t('series.olivias.year'),
       description: t('series.olivias.text'),

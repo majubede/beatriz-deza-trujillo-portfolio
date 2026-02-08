@@ -22,7 +22,7 @@ const SeriesCard: React.FC<SeriesCardProps> = ({
 
   return (
     <Link
-      to={slug === 'mujer-x' ? '/mujer-x' : slug === 'territorios' ? '/territorios' : slug === 'autorretrato' ? '/autorretrato' : `/obra/${slug}`}
+      to={slug === 'mujer-x' ? '/mujer-x' : slug === 'territorios' ? '/territorios' : slug === 'autorretrato' ? '/autorretrato' : slug === 'infancia' ? '/infancia' : `/obra/${slug}`}
       className={`group block ${featured ? 'col-span-2 row-span-2' : ''}`}
     >
       <div className="relative aspect-[4/5] overflow-hidden bg-muted mb-4">
