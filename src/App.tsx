@@ -9,6 +9,7 @@ import Obra from "./pages/Obra";
 import MujerX from "./pages/MujerX";
 import Territorios from "./pages/Territorios";
 import Autorretrato from "./pages/Autorretrato";
+import Infancia from "./pages/Infancia";
 import About from "./pages/About";
 import CV from "./pages/CV";
 import Contact from "./pages/Contact";
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/mujer-x" element={<MujerX />} />
             <Route path="/territorios" element={<Territorios />} />
             <Route path="/autorretrato" element={<Autorretrato />} />
+            <Route path="/infancia" element={<Infancia />} />
             <Route path="/sobre-mi" element={<About />} />
             <Route path="/cv" element={<CV />} />
             <Route path="/contacto" element={<Contact />} />
