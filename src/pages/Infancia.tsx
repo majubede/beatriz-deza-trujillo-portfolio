@@ -15,6 +15,10 @@ import calleNocturnaByn from '@/assets/infancia/calle-nocturna-byn.jpg';
 import columpioDoble from '@/assets/infancia/columpio-doble.jpg';
 import playaGuardamar from '@/assets/infancia/playa-guardamar.jpg';
 import sabanaArboles from '@/assets/infancia/sabana-arboles.jpg';
+import escalerasEscorial from '@/assets/infancia/escaleras-escorial.jpg';
+import habitacionMotel from '@/assets/infancia/habitacion-motel.jpg';
+import banquetaPajaro from '@/assets/infancia/banqueta-pajaro.jpg';
+import sillaCalle from '@/assets/infancia/silla-calle.jpg';
 
 const Infancia: React.FC = () => {
   const { t } = useLanguage();
@@ -31,6 +35,10 @@ const Infancia: React.FC = () => {
     { src: columpioDoble, alt: 'Olivia en el columpio doble exposición' },
     { src: playaGuardamar, alt: 'Olivia corriendo en la playa Guardamar' },
     { src: sabanaArboles, alt: 'Olivia levantando la sábana entre los árboles' },
+    { src: escalerasEscorial, alt: 'Olivia en las escaleras del Escorial' },
+    { src: habitacionMotel, alt: 'Olivia habitación motel doble exposición' },
+    { src: banquetaPajaro, alt: 'Olivia sentada con pájaro' },
+    { src: sillaCalle, alt: 'Olivia en silla en la calle' },
   ];
 
   return (
