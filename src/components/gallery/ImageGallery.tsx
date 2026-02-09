@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface GalleryImage {
@@ -180,9 +181,9 @@ const Lightbox: React.FC<LightboxProps> = ({
 
   const currentImage = images[currentIndex];
 
-  return (
-    <div 
-      className="fixed inset-0 z-50 gallery-overlay fade-in flex flex-col"
+  const lightbox = (
+    <div
+      className="fixed inset-0 z-50 gallery-overlay fade-in"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
@@ -190,7 +191,7 @@ const Lightbox: React.FC<LightboxProps> = ({
       {/* Close button */}
       <button
         onClick={onClose}
-        className="absolute top-4 right-4 z-20 p-2 text-foreground/60 hover:text-foreground transition-colors"
+        className="absolute right-4 top-[calc(env(safe-area-inset-top)+1rem)] z-20 p-2 text-foreground/60 hover:text-foreground transition-colors"
         aria-label="Close"
       >
         <X size={28} />
@@ -216,8 +217,8 @@ const Lightbox: React.FC<LightboxProps> = ({
         </>
       )}
 
-      {/* Image container - absolutely centered */}
-      <div className="flex-1 flex items-center justify-center px-4 py-20">
+      {/* Image container - truly centered in the viewport */}
+      <div className="absolute inset-0 z-0 grid place-items-center px-4 pt-[calc(env(safe-area-inset-top)+4rem)] pb-[calc(env(safe-area-inset-bottom)+4.5rem)]">
         <img
           src={currentImage.src}
           alt={currentImage.alt}
@@ -226,7 +227,7 @@ const Lightbox: React.FC<LightboxProps> = ({
       </div>
 
       {/* Caption and counter */}
-      <div className="absolute bottom-4 left-0 right-0 text-center z-10">
+      <div className="absolute left-0 right-0 text-center z-20 bottom-[calc(env(safe-area-inset-bottom)+1rem)]">
         {showCaptions && currentImage.caption && (
           <p className="text-foreground/70 text-sm mb-2">{currentImage.caption}</p>
         )}
@@ -236,6 +237,10 @@ const Lightbox: React.FC<LightboxProps> = ({
       </div>
     </div>
   );
+
+  // Render as a portal to avoid layout/transform offsets from page containers
+  if (typeof document === 'undefined') return lightbox;
+  return createPortal(lightbox, document.body);
 };
 
 export default ImageGallery;
