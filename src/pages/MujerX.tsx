@@ -129,21 +129,21 @@ const MujerX: React.FC = () => {
         {/* View Mode Toggle */}
         <div className="flex items-center gap-4 mb-8 fade-in">
           <button
-            onClick={() => setViewMode('sequence')}
-            className={`text-sm tracking-wide transition-colors duration-300 ${
-              viewMode === 'sequence' ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
-            }`}
-          >
-            {t('mujerx.view.sequence')}
-          </button>
-          <span className="text-muted-foreground/30">|</span>
-          <button
             onClick={() => setViewMode('grid')}
             className={`text-sm tracking-wide transition-colors duration-300 ${
               viewMode === 'grid' ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
             }`}
           >
             {t('mujerx.view.grid')}
+          </button>
+          <span className="text-muted-foreground/30">|</span>
+          <button
+            onClick={() => setViewMode('sequence')}
+            className={`text-sm tracking-wide transition-colors duration-300 ${
+              viewMode === 'sequence' ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
+            }`}
+          >
+            {t('mujerx.view.sequence')}
           </button>
         </div>
 
