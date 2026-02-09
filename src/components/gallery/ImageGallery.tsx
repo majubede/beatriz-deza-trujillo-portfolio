@@ -182,7 +182,7 @@ const Lightbox: React.FC<LightboxProps> = ({
 
   return (
     <div 
-      className="fixed inset-0 z-50 gallery-overlay flex items-center justify-center fade-in"
+      className="fixed inset-0 z-50 gallery-overlay fade-in"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
@@ -190,7 +190,7 @@ const Lightbox: React.FC<LightboxProps> = ({
       {/* Close button */}
       <button
         onClick={onClose}
-        className="absolute top-4 right-4 z-10 p-2 text-foreground/60 hover:text-foreground transition-colors"
+        className="absolute top-4 right-4 z-20 p-2 text-foreground/60 hover:text-foreground transition-colors"
         aria-label="Close"
       >
         <X size={28} />
@@ -201,14 +201,14 @@ const Lightbox: React.FC<LightboxProps> = ({
         <>
           <button
             onClick={onPrevious}
-            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-2 text-foreground/40 hover:text-foreground transition-colors hidden md:block"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-20 p-2 text-foreground/40 hover:text-foreground transition-colors hidden md:block"
             aria-label="Previous image"
           >
             <ChevronLeft size={40} />
           </button>
           <button
             onClick={onNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-2 text-foreground/40 hover:text-foreground transition-colors hidden md:block"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-20 p-2 text-foreground/40 hover:text-foreground transition-colors hidden md:block"
             aria-label="Next image"
           >
             <ChevronRight size={40} />
@@ -216,8 +216,8 @@ const Lightbox: React.FC<LightboxProps> = ({
         </>
       )}
 
-      {/* Image - centered with flexbox */}
-      <div className="absolute inset-0 flex items-center justify-center p-8 md:p-16">
+      {/* Image container - truly centered */}
+      <div className="w-full h-full flex items-center justify-center p-4 pt-16 pb-16">
         <img
           src={currentImage.src}
           alt={currentImage.alt}
@@ -226,7 +226,7 @@ const Lightbox: React.FC<LightboxProps> = ({
       </div>
 
       {/* Caption and counter */}
-      <div className="absolute bottom-4 left-0 right-0 text-center">
+      <div className="absolute bottom-4 left-0 right-0 text-center z-10">
         {showCaptions && currentImage.caption && (
           <p className="text-foreground/70 text-sm mb-2">{currentImage.caption}</p>
         )}
