@@ -182,7 +182,7 @@ const Lightbox: React.FC<LightboxProps> = ({
 
   return (
     <div 
-      className="fixed inset-0 z-50 gallery-overlay fade-in"
+      className="fixed inset-0 z-50 gallery-overlay fade-in flex flex-col"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
@@ -216,8 +216,8 @@ const Lightbox: React.FC<LightboxProps> = ({
         </>
       )}
 
-      {/* Image container - truly centered */}
-      <div className="w-full h-full flex items-center justify-center p-4 pt-16 pb-16">
+      {/* Image container - absolutely centered */}
+      <div className="flex-1 flex items-center justify-center px-4 py-20">
         <img
           src={currentImage.src}
           alt={currentImage.alt}
