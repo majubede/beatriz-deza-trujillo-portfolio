@@ -182,7 +182,7 @@
 
   /* Fullscreen gallery overlay */
   .gallery-overlay {
-    background-color: hsl(var(--gallery-overlay) / 0.97);
+    background-color: hsl(0 0% 100% / 0.98);
   }
 
   /* Elegant scrollbar */
