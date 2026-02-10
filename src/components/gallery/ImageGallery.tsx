@@ -217,12 +217,12 @@ const Lightbox: React.FC<LightboxProps> = ({
         </>
       )}
 
-      {/* Image container - truly centered in the viewport */}
-      <div className="absolute inset-0 z-0 grid place-items-center px-4 pt-[calc(env(safe-area-inset-top)+4rem)] pb-[calc(env(safe-area-inset-bottom)+4.5rem)]">
+      {/* Image container - fills available space, no scroll */}
+      <div className="absolute inset-0 z-0 flex items-center justify-center px-12 md:px-20" style={{ top: '3.5rem', bottom: '3rem' }}>
         <img
           src={currentImage.src}
           alt={currentImage.alt}
-          className="max-w-full max-h-full object-contain"
+          className="w-full h-full object-contain"
         />
       </div>
 
