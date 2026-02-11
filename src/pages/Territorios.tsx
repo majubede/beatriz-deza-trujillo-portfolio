@@ -68,12 +68,14 @@ import procesion16 from '@/assets/territorios/procesion-16.jpg';
 import procesion17 from '@/assets/territorios/procesion-17.jpg';
 import procesion18 from '@/assets/territorios/procesion-18.jpg';
 
-// Capas de ausencia images
-import capasAusencia1 from '@/assets/territorios/capas-ausencia-1.jpg';
-import capasAusencia2 from '@/assets/territorios/capas-ausencia-2.jpg';
-import capasAusencia3 from '@/assets/territorios/capas-ausencia-3.jpg';
-import capasAusencia4 from '@/assets/territorios/capas-ausencia-4.jpg';
-import capasAusencia5 from '@/assets/territorios/capas-ausencia-5.jpg';
+// Capas de ausencia images (new dípticos)
+import capasAusencia1 from '@/assets/territorios/capas-ausencia-1-new.jpg';
+import capasAusencia2 from '@/assets/territorios/capas-ausencia-2-new.jpg';
+import capasAusencia3 from '@/assets/territorios/capas-ausencia-3-new.jpg';
+import capasAusencia4 from '@/assets/territorios/capas-ausencia-4-new.jpg';
+import capasAusencia5 from '@/assets/territorios/capas-ausencia-5-new.jpg';
+import capasAusencia6 from '@/assets/territorios/capas-ausencia-6-new.jpg';
+import capasAusencia7 from '@/assets/territorios/capas-ausencia-7-new.jpg';
 
 // Pool Story images
 import poolStory1 from '@/assets/territorios/pool-story-1.jpg';
@@ -180,6 +182,8 @@ const Territorios: React.FC = () => {
         { src: capasAusencia3, alt: 'Capas de ausencia III', caption: 'III' },
         { src: capasAusencia4, alt: 'Capas de ausencia IV', caption: 'IV' },
         { src: capasAusencia5, alt: 'Capas de ausencia V', caption: 'V' },
+        { src: capasAusencia6, alt: 'Capas de ausencia VI', caption: 'VI' },
+        { src: capasAusencia7, alt: 'Capas de ausencia VII', caption: 'VII' },
       ],
     },
     {
@@ -304,6 +308,9 @@ const Territorios: React.FC = () => {
                   )}
                   {sub.slug === 'estados-de-agua' && (
                     <p className="body-curatorial mb-6">{t('series.territorios.estadosagua.text')}</p>
+                  )}
+                  {sub.slug === 'capas-de-ausencia' && (
+                    <p className="body-curatorial mb-6">{t('series.territorios.capasausencia.text')}</p>
                   )}
                   {/* View Mode Toggle */}
                   <div className="flex items-center gap-4 mb-6">
