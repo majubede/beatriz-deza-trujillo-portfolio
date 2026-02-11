@@ -105,6 +105,7 @@ const translations: Record<Language, Record<string, string>> = {
     'territorios.sub.barbie': 'Barbie y sus amigos',
     'series.territorios.barbie.text': 'Barbie y sus amigos es un juego de códigos: rosa, pose, brillo.\nUn mundo pop que parece perfecto, pero evidencia el estereotipo.\nEntre lo que se imita y lo que se elige aparece la identidad… y, mientras se busca, ¿por qué no divertirse?',
     'territorios.sub.titulcia': 'Día en Titulcia',
+    'series.territorios.titulcia.text': 'Día en familia. Pinceladas en blanco y negro que guardan lo cotidiano: gestos, juegos y pequeños instantes compartidos.',
     'territorios.sub.procesion': 'Noche de procesión',
     
     'series.paisajes': 'Escenarios',
@@ -230,6 +231,7 @@ const translations: Record<Language, Record<string, string>> = {
     'territorios.sub.barbie': 'Barbie and friends',
     'series.territorios.barbie.text': 'Barbie and her Friends is a game of codes: pink, pose, shine.\nA pop world that seems perfect, yet reveals the stereotype.\nBetween what is imitated and what is chosen, identity emerges — and while searching for it, why not have fun?',
     'territorios.sub.titulcia': 'A day in Titulcia',
+    'series.territorios.titulcia.text': 'A day with family. Black and white brushstrokes that hold the everyday—gestures, play, and small shared moments.',
     'territorios.sub.procesion': 'Procession night',
     
     'series.paisajes': 'Scenarios',
