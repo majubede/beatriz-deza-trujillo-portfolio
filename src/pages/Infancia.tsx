@@ -39,7 +39,6 @@ const Infancia: React.FC = () => {
     { src: oliviaBalonPiscina, alt: 'Olivia con balón blanco en la piscina' },
     { src: oliviaBanadorCampo, alt: 'Olivia en bañador en el campo' },
     { src: oliviaCocheCristal, alt: 'Olivia tras el cristal mojado del coche' },
-    { src: dobleExposicionTutu, alt: 'Olivia doble exposición vestido burdeos' },
     { src: paradaBus, alt: 'Olivia en la parada de bus con maletas' },
     { src: calleNocturnaByn, alt: 'Olivia en la calle nocturna en B/N' },
     { src: columpioDoble, alt: 'Olivia en el columpio doble exposición' },
@@ -49,6 +48,7 @@ const Infancia: React.FC = () => {
     { src: habitacionMotel, alt: 'Olivia habitación motel doble exposición' },
     { src: banquetaPajaro, alt: 'Olivia sentada con pájaro' },
     { src: sillaCalle, alt: 'Olivia en silla en la calle' },
+    { src: dobleExposicionTutu, alt: 'Olivia doble exposición vestido burdeos' },
   ];
 
   return (
