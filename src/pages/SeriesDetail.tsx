@@ -16,6 +16,10 @@ import nieblaPolvoranca from '@/assets/paisajes/niebla-polvoranca.jpg';
 import lunaAtardecer from '@/assets/paisajes/luna-atardecer.jpg';
 import arbolesNevados from '@/assets/paisajes/arboles-nevados.jpg';
 import lunaAtardecer2 from '@/assets/paisajes/luna-atardecer-2.jpg';
+import nieblaBosquesur from '@/assets/paisajes/niebla-bosquesur.jpg';
+import arbolLunaGuardamar from '@/assets/paisajes/arbol-luna-guardamar.jpg';
+import absences from '@/assets/paisajes/absences.jpg';
+import nieveBosquesur from '@/assets/paisajes/nieve-bosquesur.jpg';
 
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
@@ -74,6 +78,10 @@ const seriesData: Record<string, SeriesData> = {
       { src: lunaAtardecer, alt: 'Luna al atardecer' },
       { src: arbolesNevados, alt: 'Árboles nevados' },
       { src: lunaAtardecer2, alt: 'Luna al atardecer sobre el mar' },
+      { src: nieblaBosquesur, alt: 'Niebla en Bosquesur' },
+      { src: arbolLunaGuardamar, alt: 'Árbol y luna en Guardamar' },
+      { src: absences, alt: 'Absences' },
+      { src: nieveBosquesur, alt: 'Nieve en Bosquesur' },
     ],
   },
   'colaboraciones': {
