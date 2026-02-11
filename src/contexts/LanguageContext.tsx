@@ -18,8 +18,8 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'Contacto',
     
     // Home Hero
-    'home.hero.title': 'Retrato conceptual sobre identidad y memoria.\nEl cuerpo como territorio\nde lo aprendido y lo íntimo.',
-    'home.hero.subtitle': 'Autorretrato y retrato como práctica simbólica\ny construcción de significado.',
+    'home.hero.title': 'Obra fotográfica entre memoria e invención.\nCuerpo, paisaje y gesto\ncomo territorio de lo íntimo.',
+    'home.hero.subtitle': 'Series sobre identidad, tiempo y percepción. El color, como lenguaje.',
     'home.cta.work': 'Ver Obra',
     'home.cta.mujerx': 'Ver Mujer X',
     'home.cta.contact': 'Contacto',
@@ -145,8 +145,8 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'Contact',
     
     // Home Hero
-    'home.hero.title': 'Conceptual portraiture on identity and memory.\nThe body as a territory\nof the learned and the intimate.',
-    'home.hero.subtitle': 'Self-portrait and portrait as a symbolic practice\nand a construction of meaning.',
+    'home.hero.title': 'Photographic work between memory and invention.\nBody, landscape and gesture\nas a territory of the intimate.',
+    'home.hero.subtitle': 'Series on identity, time and perception. Color as language.',
     'home.cta.work': 'View Work',
     'home.cta.mujerx': 'View Mujer X',
     'home.cta.contact': 'Contact',
