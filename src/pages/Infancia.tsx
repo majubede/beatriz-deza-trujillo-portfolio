@@ -11,7 +11,7 @@ import ventanaPuerto from '@/assets/infancia/ventana-puerto.jpg';
 import carruselGuarda from '@/assets/infancia/carrusel-guarda.jpg';
 import manosOliviaPuerta from '@/assets/infancia/manos-olivia-puerta.jpg';
 import oliviaAguaBurdeos from '@/assets/infancia/olivia-agua-burdeos.jpg';
-import oliviaBalонPiscina from '@/assets/infancia/olivia-balon-piscina.jpg';
+import oliviaBalonPiscina from '@/assets/infancia/olivia-balon-piscina.jpg';
 import oliviaBanadorCampo from '@/assets/infancia/olivia-banador-campo.jpg';
 import oliviaCocheCristal from '@/assets/infancia/olivia-coche-cristal.jpg';
 import dobleExposicionTutu from '@/assets/infancia/doble-exposicion-tutu.jpg';
