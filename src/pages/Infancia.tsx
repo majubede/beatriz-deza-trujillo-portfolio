@@ -8,7 +8,12 @@ import ImageGallery from '@/components/gallery/ImageGallery';
 import farolaBalon from '@/assets/infancia/farola-balon.jpg';
 import lucesColores from '@/assets/infancia/luces-colores.jpg';
 import ventanaPuerto from '@/assets/infancia/ventana-puerto.jpg';
-import banderaPlaya from '@/assets/infancia/bandera-playa.jpg';
+import carruselGuarda from '@/assets/infancia/carrusel-guarda.jpg';
+import manosOliviaPuerta from '@/assets/infancia/manos-olivia-puerta.jpg';
+import oliviaAguaBurdeos from '@/assets/infancia/olivia-agua-burdeos.jpg';
+import oliviaBalonPiscina from '@/assets/infancia/olivia-balon-piscina.jpg';
+import oliviaBanadorCampo from '@/assets/infancia/olivia-banador-campo.jpg';
+import oliviaCocheCristal from '@/assets/infancia/olivia-coche-cristal.jpg';
 import dobleExposicionTutu from '@/assets/infancia/doble-exposicion-tutu.jpg';
 import paradaBus from '@/assets/infancia/parada-bus.jpg';
 import calleNocturnaByn from '@/assets/infancia/calle-nocturna-byn.jpg';
@@ -28,7 +33,12 @@ const Infancia: React.FC = () => {
     { src: farolaBalon, alt: 'Olivia bajo la farola con el balón amarillo' },
     { src: lucesColores, alt: 'Olivia en el círculo de luz de colores' },
     { src: ventanaPuerto, alt: 'Olivia sentada en la ventana del puerto' },
-    { src: banderaPlaya, alt: 'Olivia con la bandera blanca en la playa' },
+    { src: carruselGuarda, alt: 'Carrusel en Guardamar' },
+    { src: manosOliviaPuerta, alt: 'Manos de Olivia en la puerta' },
+    { src: oliviaAguaBurdeos, alt: 'Olivia en el agua' },
+    { src: oliviaBalonPiscina, alt: 'Olivia con balón blanco en la piscina' },
+    { src: oliviaBanadorCampo, alt: 'Olivia en bañador en el campo' },
+    { src: oliviaCocheCristal, alt: 'Olivia tras el cristal mojado del coche' },
     { src: dobleExposicionTutu, alt: 'Olivia doble exposición vestido burdeos' },
     { src: paradaBus, alt: 'Olivia en la parada de bus con maletas' },
     { src: calleNocturnaByn, alt: 'Olivia en la calle nocturna en B/N' },
