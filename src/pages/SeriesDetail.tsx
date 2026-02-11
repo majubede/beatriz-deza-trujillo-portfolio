@@ -9,6 +9,14 @@ import ensayoEnRosaImage from '@/assets/ensayo-en-rosa.jpg';
 import paisajesImage from '@/assets/paisajes.jpg';
 import walkingTogetherImage from '@/assets/walking-together.jpg';
 
+// Escenarios (Paisajes) images
+import paisajeNublado from '@/assets/paisajes/paisaje-nublado-gran-canaria.jpg';
+import glaciarByn from '@/assets/paisajes/glaciar-byn.jpg';
+import nieblaPolvoranca from '@/assets/paisajes/niebla-polvoranca.jpg';
+import lunaAtardecer from '@/assets/paisajes/luna-atardecer.jpg';
+import arbolesNevados from '@/assets/paisajes/arboles-nevados.jpg';
+import lunaAtardecer2 from '@/assets/paisajes/luna-atardecer-2.jpg';
+
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
 import vientoSinNorteImage from '@/assets/colaboraciones/viento-sin-norte.jpg';
@@ -59,7 +67,13 @@ const seriesData: Record<string, SeriesData> = {
     yearKey: 'series.paisajes.year',
     textKey: 'series.paisajes.text',
     images: [
-      { src: paisajesImage, alt: 'Paisajes I', caption: 'Untitled I, 2024' },
+      { src: paisajesImage, alt: 'Paisajes I' },
+      { src: paisajeNublado, alt: 'Paisaje nublado en Gran Canaria' },
+      { src: glaciarByn, alt: 'Glaciar en blanco y negro' },
+      { src: nieblaPolvoranca, alt: 'Niebla en Polvoranca' },
+      { src: lunaAtardecer, alt: 'Luna al atardecer' },
+      { src: arbolesNevados, alt: 'Árboles nevados' },
+      { src: lunaAtardecer2, alt: 'Luna al atardecer sobre el mar' },
     ],
   },
   'colaboraciones': {
