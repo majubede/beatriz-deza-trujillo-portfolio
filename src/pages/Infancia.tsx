@@ -36,7 +36,7 @@ const Infancia: React.FC = () => {
     { src: carruselGuarda, alt: 'Carrusel en Guardamar' },
     { src: manosOliviaPuerta, alt: 'Manos de Olivia en la puerta' },
     { src: oliviaAguaBurdeos, alt: 'Olivia en el agua' },
-    { src: oliviaBalонPiscina, alt: 'Olivia con balón blanco en la piscina' },
+    { src: oliviaBalonPiscina, alt: 'Olivia con balón blanco en la piscina' },
     { src: oliviaBanadorCampo, alt: 'Olivia en bañador en el campo' },
     { src: oliviaCocheCristal, alt: 'Olivia tras el cristal mojado del coche' },
     { src: dobleExposicionTutu, alt: 'Olivia doble exposición vestido burdeos' },
