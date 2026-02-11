@@ -103,6 +103,7 @@ const translations: Record<Language, Record<string, string>> = {
     'territorios.sub.poolstory': 'Pool Story',
     'series.territorios.poolstory.text': 'Una piscina vacía.\nLa imaginación lo llena todo.\nLa felicidad está en lo que ya tenemos.',
     'territorios.sub.barbie': 'Barbie y sus amigos',
+    'series.territorios.barbie.text': 'Barbie y sus amigos es un juego de códigos: rosa, pose, brillo.\nUn mundo pop que parece perfecto, pero evidencia el estereotipo.\nEntre lo que se imita y lo que se elige aparece la identidad… y, mientras se busca, ¿por qué no divertirse?',
     'territorios.sub.titulcia': 'Día en Titulcia',
     'territorios.sub.procesion': 'Noche de procesión',
     
@@ -227,6 +228,7 @@ const translations: Record<Language, Record<string, string>> = {
     'territorios.sub.poolstory': 'Pool Story',
     'series.territorios.poolstory.text': 'Pool Story speaks about imagination as a refuge.\nAn empty pool becomes a stage, a game, an adventure.\nHappiness lies in transforming what we already have.',
     'territorios.sub.barbie': 'Barbie and friends',
+    'series.territorios.barbie.text': 'Barbie and her Friends is a game of codes: pink, pose, shine.\nA pop world that seems perfect, yet reveals the stereotype.\nBetween what is imitated and what is chosen, identity emerges — and while searching for it, why not have fun?',
     'territorios.sub.titulcia': 'A day in Titulcia',
     'territorios.sub.procesion': 'Procession night',
     
