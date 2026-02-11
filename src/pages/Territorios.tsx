@@ -298,6 +298,10 @@ const Territorios: React.FC = () => {
               {/* Expanded Gallery */}
               {expandedSubseries === sub.slug && sub.images.length > 0 && (
                 <div className="mt-6 mb-8 fade-in">
+                  {/* Introductory text for specific subseries */}
+                  {sub.slug === 'los-que-permanecen' && (
+                    <p className="body-curatorial mb-6">{t('series.territorios.lqp.text')}</p>
+                  )}
                   {/* View Mode Toggle */}
                   <div className="flex items-center gap-4 mb-6">
                     <button
