@@ -107,6 +107,7 @@ const translations: Record<Language, Record<string, string>> = {
     'territorios.sub.titulcia': 'Día en Titulcia',
     'series.territorios.titulcia.text': 'Día en familia. Pinceladas en blanco y negro que guardan lo cotidiano: gestos, juegos y pequeños instantes compartidos.',
     'territorios.sub.procesion': 'Noche de procesión',
+    'series.territorios.procesion.text': 'Velas, pasos, silencio.\nUna tradición compartida que vuelve cada año y se vive generación tras generación, permaneciendo en el recuerdo más allá de lo religioso.',
     
     'series.paisajes': 'Escenarios',
     'series.paisajes.year': '2024',
@@ -233,6 +234,7 @@ const translations: Record<Language, Record<string, string>> = {
     'territorios.sub.titulcia': 'A day in Titulcia',
     'series.territorios.titulcia.text': 'A day with family. Black and white brushstrokes that hold the everyday—gestures, play, and small shared moments.',
     'territorios.sub.procesion': 'Procession night',
+    'series.territorios.procesion.text': 'Candles, footsteps, silence.\nA shared tradition that returns each year, lived from generation to generation, staying in memory beyond the religious.',
     
     'series.paisajes': 'Scenarios',
     'series.paisajes.year': '2024',
