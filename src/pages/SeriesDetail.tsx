@@ -20,6 +20,7 @@ import nieblaBosquesur from '@/assets/paisajes/niebla-bosquesur.jpg';
 import arbolLunaGuardamar from '@/assets/paisajes/arbol-luna-guardamar.jpg';
 import absences from '@/assets/paisajes/absences.jpg';
 import nieveBosquesur from '@/assets/paisajes/nieve-bosquesur.jpg';
+import postalInvierno from '@/assets/paisajes/postal-invierno.jpg';
 
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
@@ -76,6 +77,7 @@ const seriesData: Record<string, SeriesData> = {
       { src: glaciarByn, alt: 'Glaciar en blanco y negro' },
       { src: nieblaPolvoranca, alt: 'Niebla en Polvoranca' },
       { src: lunaAtardecer, alt: 'Luna al atardecer' },
+      { src: postalInvierno, alt: 'Postal de invierno' },
       { src: arbolesNevados, alt: 'Árboles nevados' },
       { src: lunaAtardecer2, alt: 'Luna al atardecer sobre el mar' },
       { src: nieblaBosquesur, alt: 'Niebla en Bosquesur' },
