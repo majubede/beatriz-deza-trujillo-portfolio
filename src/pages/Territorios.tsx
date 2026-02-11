@@ -109,7 +109,7 @@ import barbieAmigos6 from '@/assets/territorios/barbie-y-sus-amigos-6.jpg';
 
 interface Subseries {
   slug: string;
-  title: string;
+  titleKey: string;
   images: { src: string; alt: string; caption?: string }[];
 }
 
@@ -121,7 +121,7 @@ const Territorios: React.FC = () => {
   const subseries: Subseries[] = [
     {
       slug: 'los-que-permanecen',
-      title: 'Los que permanecen',
+      titleKey: 'territorios.sub.lqp',
       images: [
         // I. Llegada - El pueblo
         { src: lqpCalle, alt: 'Calle principal' },
@@ -161,7 +161,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'estados-de-agua',
-      title: 'Estados de agua',
+      titleKey: 'territorios.sub.estadosagua',
       images: [
         { src: estadosAgua1, alt: 'Estados de agua I', caption: 'I' },
         { src: estadosAgua2, alt: 'Estados de agua II', caption: 'II' },
@@ -173,7 +173,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'capas-de-ausencia',
-      title: 'Capas de ausencia',
+      titleKey: 'territorios.sub.capasausencia',
       images: [
         { src: capasAusencia1, alt: 'Capas de ausencia I', caption: 'I' },
         { src: capasAusencia2, alt: 'Capas de ausencia II', caption: 'II' },
@@ -184,7 +184,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'boys-dont-cry',
-      title: "Boys don't cry",
+      titleKey: 'territorios.sub.boysdontcry',
       images: [
         { src: boysDontCry1, alt: "Boys don't cry I", caption: 'I' },
         { src: boysDontCry2, alt: "Boys don't cry II", caption: 'II' },
@@ -195,7 +195,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'geografias-fugaces',
-      title: 'Geografías fugaces',
+      titleKey: 'territorios.sub.geografias',
       images: [
         { src: geografiasFugaces1, alt: 'Geografías fugaces I' },
         { src: geografiasFugaces2, alt: 'Geografías fugaces II' },
@@ -206,7 +206,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'pool-story',
-      title: 'Pool Story',
+      titleKey: 'territorios.sub.poolstory',
       images: [
         { src: poolStory1, alt: 'Pool Story I' },
         { src: poolStory2, alt: 'Pool Story II' },
@@ -219,7 +219,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'barbie-y-sus-amigos',
-      title: 'Barbie y sus amigos',
+      titleKey: 'territorios.sub.barbie',
       images: [
         { src: barbieAmigos1, alt: 'Barbie y sus amigos I', caption: 'I' },
         { src: barbieAmigos2, alt: 'Barbie y sus amigos II', caption: 'II' },
@@ -231,7 +231,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'dia-en-titulcia',
-      title: 'Día en Titulcia',
+      titleKey: 'territorios.sub.titulcia',
       images: [
         { src: titulcia1, alt: 'Día en Titulcia I', caption: 'I' },
         { src: titulcia2, alt: 'Día en Titulcia II', caption: 'II' },
@@ -243,7 +243,7 @@ const Territorios: React.FC = () => {
     },
     {
       slug: 'noche-de-procesion',
-      title: 'Noche de procesión',
+      titleKey: 'territorios.sub.procesion',
       images: [
         { src: procesion01, alt: 'Noche de procesión I', caption: 'I' },
         { src: procesion02, alt: 'Noche de procesión II', caption: 'II' },
@@ -288,7 +288,7 @@ const Territorios: React.FC = () => {
                 className="w-full flex items-center justify-between py-3 text-left group"
               >
                 <h2 className="font-serif text-xl md:text-2xl group-hover:opacity-70 transition-opacity duration-300">
-                  {sub.title}
+                  {t(sub.titleKey)}
                 </h2>
                 <span className="text-muted-foreground text-sm">
                   {sub.images.length > 0 ? `${sub.images.length} obras` : 'Próximamente'}
