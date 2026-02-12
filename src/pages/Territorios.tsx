@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import ImageGallery from '@/components/gallery/ImageGallery';
@@ -294,9 +295,16 @@ const Territorios: React.FC = () => {
                 <h2 className="font-serif text-xl md:text-2xl group-hover:opacity-70 transition-opacity duration-300">
                   {t(sub.titleKey)}
                 </h2>
-                <span className="text-muted-foreground text-sm">
-                  {sub.images.length > 0 ? `${sub.images.length} obras` : 'Próximamente'}
-                </span>
+                <div className="flex items-center gap-3">
+                  <span className="text-muted-foreground text-sm">
+                    {sub.images.length > 0 ? `${sub.images.length} obras` : 'Próximamente'}
+                  </span>
+                  <ChevronDown 
+                    className={`w-5 h-5 text-muted-foreground transition-transform duration-300 ${
+                      expandedSubseries === sub.slug ? 'rotate-180' : ''
+                    }`} 
+                  />
+                </div>
               </button>
 
               {/* Expanded Gallery */}
