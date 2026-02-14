@@ -119,7 +119,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     'series.gente': 'Presencias',
     'series.gente.year': '2024',
-    'series.gente.text': 'Retratos que capturan la esencia y las historias de quienes nos rodean.',
+    'series.gente.text': 'Cada retrato es un encuentro.\nUna forma de mirar al otro sin reducirlo a una sola versión.',
     
     'series.colaboraciones': 'Colaboraciones',
     'series.colaboraciones.year': '2024',
@@ -246,7 +246,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     'series.gente': 'Presences',
     'series.gente.year': '2024',
-    'series.gente.text': 'Portraits capturing the essence and stories of those around us.',
+    'series.gente.text': 'Each portrait is an encounter.\nA way of looking at the other without reducing them to a single version.',
     
     'series.colaboraciones': 'Collaborations',
     'series.colaboraciones.year': '2024',
