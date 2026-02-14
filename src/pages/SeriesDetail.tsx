@@ -35,6 +35,9 @@ import retratoJuanito from '@/assets/presencias/retrato-juanito.jpg';
 import claudiaSpiderman from '@/assets/presencias/claudia-spiderman.jpg';
 import ireneDobleExposicion from '@/assets/presencias/irene-doble-exposicion.jpg';
 import saraSombrasHelecho from '@/assets/presencias/sara-sombras-helecho.jpg';
+import oliviaClaveles from '@/assets/presencias/olivia-claveles.jpg';
+import mariaArbol from '@/assets/presencias/maria-arbol.jpg';
+import mariaEIreneLuces from '@/assets/presencias/maria-e-irene-luces.jpg';
 
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
@@ -111,12 +114,15 @@ const seriesData: Record<string, SeriesData> = {
       { src: mario3, alt: 'Retrato de Mario' },
       { src: ireneDobleExposicion, alt: 'Irene doble exposición' },
       { src: oliviaRojoRetro, alt: 'Olivia todo al rojo' },
+      { src: mariaArbol, alt: 'María abrazando árbol' },
       { src: claudia11, alt: 'Claudia nocturna' },
       { src: roberPiscinaFlores, alt: 'Rober en piscina con flores' },
       { src: saraSombrasHelecho, alt: 'Sara con sombras de helecho' },
       { src: retratoJuanito, alt: 'Retrato de Juanito' },
+      { src: oliviaClaveles, alt: 'Olivia con claveles' },
       { src: mariaEIrene, alt: 'María e Irene al atardecer' },
       { src: claudiaSpiderman, alt: 'Claudia doble exposición' },
+      { src: mariaEIreneLuces, alt: 'María e Irene con luces' },
     ],
   },
   'colaboraciones': {
