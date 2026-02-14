@@ -76,7 +76,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 top-[72px] bg-background z-40 fade-in overflow-y-auto">
+        <div className="md:hidden fixed inset-x-0 top-[72px] bottom-0 z-[60] overflow-y-auto" style={{ backgroundColor: 'hsl(var(--background))' }}>
           <nav className="container mx-auto px-6 py-8 flex flex-col gap-6">
             {navItems.map((item) => (
               <Link
