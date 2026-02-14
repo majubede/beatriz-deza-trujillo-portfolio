@@ -22,6 +22,18 @@ import absences from '@/assets/paisajes/absences.jpg';
 import nieveBosquesur from '@/assets/paisajes/nieve-bosquesur.jpg';
 import postalInvierno from '@/assets/paisajes/postal-invierno.jpg';
 
+// Presencias images
+import saraCortina from '@/assets/presencias/sara-cortina.jpg';
+import juanAdolfo from '@/assets/presencias/juan-adolfo.jpg';
+import oliviaBanoRosa from '@/assets/presencias/olivia-bano-rosa.jpg';
+import mario3 from '@/assets/presencias/mario-3.jpg';
+import mariaEIrene from '@/assets/presencias/maria-e-irene.jpg';
+import oliviaRojoRetro from '@/assets/presencias/olivia-rojo-retro.jpg';
+import claudia11 from '@/assets/presencias/claudia-11.jpg';
+import roberPiscinaFlores from '@/assets/presencias/rober-piscina-flores.jpg';
+import retratoJuanito from '@/assets/presencias/retrato-juanito.jpg';
+import claudiaSpiderman from '@/assets/presencias/claudia-spiderman.jpg';
+
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
 import vientoSinNorteImage from '@/assets/colaboraciones/viento-sin-norte.jpg';
@@ -84,6 +96,23 @@ const seriesData: Record<string, SeriesData> = {
       { src: arbolLunaGuardamar, alt: 'Árbol y luna en Guardamar' },
       { src: absences, alt: 'Absences' },
       { src: nieveBosquesur, alt: 'Nieve en Bosquesur' },
+    ],
+  },
+  'gente': {
+    titleKey: 'series.gente',
+    yearKey: 'series.gente.year',
+    textKey: 'series.gente.text',
+    images: [
+      { src: saraCortina, alt: 'Sara tras cortina de encaje' },
+      { src: juanAdolfo, alt: 'Retrato de Juan Adolfo' },
+      { src: oliviaBanoRosa, alt: 'Olivia en baño rosa' },
+      { src: mario3, alt: 'Retrato de Mario' },
+      { src: mariaEIrene, alt: 'María e Irene al atardecer' },
+      { src: oliviaRojoRetro, alt: 'Olivia todo al rojo' },
+      { src: claudia11, alt: 'Claudia nocturna' },
+      { src: roberPiscinaFlores, alt: 'Rober en piscina con flores' },
+      { src: retratoJuanito, alt: 'Retrato de Juanito' },
+      { src: claudiaSpiderman, alt: 'Claudia doble exposición' },
     ],
   },
   'colaboraciones': {
