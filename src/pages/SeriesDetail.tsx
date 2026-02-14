@@ -39,6 +39,7 @@ import oliviaClaveles from '@/assets/presencias/olivia-claveles.jpg';
 import mariaArbol from '@/assets/presencias/maria-arbol.jpg';
 import mariaEIreneLuces from '@/assets/presencias/maria-e-irene-luces.jpg';
 import mariaEIrene3 from '@/assets/presencias/maria-e-irene-3.jpg';
+import sonrisaBajoElAgua from '@/assets/presencias/sonrisa-bajo-el-agua.jpg';
 
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
@@ -124,6 +125,7 @@ const seriesData: Record<string, SeriesData> = {
       { src: oliviaClaveles, alt: 'Olivia con claveles' },
       { src: mariaEIreneLuces, alt: 'María e Irene con luces' },
       { src: juanAdolfo, alt: 'Retrato de Juan Adolfo' },
+      { src: sonrisaBajoElAgua, alt: 'Sonrisa bajo el agua' },
     ],
   },
   'colaboraciones': {
