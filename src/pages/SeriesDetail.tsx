@@ -27,7 +27,7 @@ import saraCortina from '@/assets/presencias/sara-cortina.jpg';
 import juanAdolfo from '@/assets/presencias/juan-adolfo.jpg';
 import oliviaBanoRosa from '@/assets/presencias/olivia-bano-rosa.jpg';
 import mario3 from '@/assets/presencias/mario-3.jpg';
-import mariaEIrene from '@/assets/presencias/maria-e-irene.jpg';
+
 import oliviaRojoRetro from '@/assets/presencias/olivia-rojo-retro.jpg';
 import claudia11 from '@/assets/presencias/claudia-11.jpg';
 import roberPiscinaFlores from '@/assets/presencias/rober-piscina-flores.jpg';
@@ -120,7 +120,7 @@ const seriesData: Record<string, SeriesData> = {
       { src: saraSombrasHelecho, alt: 'Sara con sombras de helecho' },
       { src: retratoJuanito, alt: 'Retrato de Juanito' },
       { src: oliviaClaveles, alt: 'Olivia con claveles' },
-      { src: mariaEIrene, alt: 'María e Irene al atardecer' },
+      
       { src: claudiaSpiderman, alt: 'Claudia doble exposición' },
       { src: mariaEIreneLuces, alt: 'María e Irene con luces' },
     ],
