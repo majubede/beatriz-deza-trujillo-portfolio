@@ -98,6 +98,23 @@ const seriesData: Record<string, SeriesData> = {
       { src: nieveBosquesur, alt: 'Nieve en Bosquesur' },
     ],
   },
+  'gente': {
+    titleKey: 'series.gente',
+    yearKey: 'series.gente.year',
+    textKey: 'series.gente.text',
+    images: [
+      { src: saraCortina, alt: 'Sara tras cortina de encaje' },
+      { src: juanAdolfo, alt: 'Retrato de Juan Adolfo' },
+      { src: oliviaBanoRosa, alt: 'Olivia en baño rosa' },
+      { src: mario3, alt: 'Retrato de Mario' },
+      { src: mariaEIrene, alt: 'María e Irene al atardecer' },
+      { src: oliviaRojoRetro, alt: 'Olivia todo al rojo' },
+      { src: claudia11, alt: 'Claudia nocturna' },
+      { src: roberPiscinaFlores, alt: 'Rober en piscina con flores' },
+      { src: retratoJuanito, alt: 'Retrato de Juanito' },
+      { src: claudiaSpiderman, alt: 'Claudia doble exposición' },
+    ],
+  },
   'colaboraciones': {
     titleKey: 'series.colaboraciones',
     yearKey: 'series.colaboraciones.year',
