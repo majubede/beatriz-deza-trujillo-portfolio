@@ -15,6 +15,7 @@ import godSaveQueen from '@/assets/autorretrato/god-save-queen.jpg';
 import lagrimasFlores from '@/assets/autorretrato/lagrimas-flores.jpg';
 import lampara from '@/assets/autorretrato/lampara.jpg';
 import oukaLelee from '@/assets/autorretrato/ouka-lelee.jpg';
+import beaLimonadaVerde from '@/assets/autorretrato/bea-limonada-verde.jpg';
 
 const Autorretrato: React.FC = () => {
   const { t } = useLanguage();
@@ -31,6 +32,7 @@ const Autorretrato: React.FC = () => {
     { src: lagrimasFlores, alt: 'Lágrimas y flores', caption: 'Lágrimas y flores' },
     { src: lampara, alt: 'Lámpara', caption: 'Lámpara' },
     { src: oukaLelee, alt: 'Ouka Leele', caption: 'Ouka Leele' },
+    { src: beaLimonadaVerde, alt: 'Bea limonada verde', caption: 'Bea limonada verde' },
   ];
 
   return (
