@@ -38,6 +38,7 @@ import saraSombrasHelecho from '@/assets/presencias/sara-sombras-helecho.jpg';
 import oliviaClaveles from '@/assets/presencias/olivia-claveles.jpg';
 import mariaArbol from '@/assets/presencias/maria-arbol.jpg';
 import mariaEIreneLuces from '@/assets/presencias/maria-e-irene-luces.jpg';
+import mariaEIrene3 from '@/assets/presencias/maria-e-irene-3.jpg';
 
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
@@ -117,6 +118,7 @@ const seriesData: Record<string, SeriesData> = {
       { src: mariaArbol, alt: 'María abrazando árbol' },
       { src: claudia11, alt: 'Claudia nocturna' },
       { src: roberPiscinaFlores, alt: 'Rober en piscina con flores' },
+      { src: mariaEIrene3, alt: 'María e Irene' },
       { src: saraSombrasHelecho, alt: 'Sara con sombras de helecho' },
       { src: retratoJuanito, alt: 'Retrato de Juanito' },
       { src: oliviaClaveles, alt: 'Olivia con claveles' },
