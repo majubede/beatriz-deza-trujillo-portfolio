@@ -22,6 +22,18 @@ import absences from '@/assets/paisajes/absences.jpg';
 import nieveBosquesur from '@/assets/paisajes/nieve-bosquesur.jpg';
 import postalInvierno from '@/assets/paisajes/postal-invierno.jpg';
 
+// Presencias images
+import saraCortina from '@/assets/presencias/sara-cortina.jpg';
+import juanAdolfo from '@/assets/presencias/juan-adolfo.jpg';
+import oliviaBanoRosa from '@/assets/presencias/olivia-bano-rosa.jpg';
+import mario3 from '@/assets/presencias/mario-3.jpg';
+import mariaEIrene from '@/assets/presencias/maria-e-irene.jpg';
+import oliviaRojoRetro from '@/assets/presencias/olivia-rojo-retro.jpg';
+import claudia11 from '@/assets/presencias/claudia-11.jpg';
+import roberPiscinaFlores from '@/assets/presencias/rober-piscina-flores.jpg';
+import retratoJuanito from '@/assets/presencias/retrato-juanito.jpg';
+import claudiaSpiderman from '@/assets/presencias/claudia-spiderman.jpg';
+
 // Colaboraciones images
 import laGrietaReinaImage from '@/assets/colaboraciones/la-grieta-reina.jpg';
 import vientoSinNorteImage from '@/assets/colaboraciones/viento-sin-norte.jpg';
