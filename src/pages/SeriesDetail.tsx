@@ -110,6 +110,7 @@ const seriesData: Record<string, SeriesData> = {
     textKey: 'series.gente.text',
     images: [
       { src: saraCortina, alt: 'Sara tras cortina de encaje' },
+      { src: claudiaSpiderman, alt: 'Claudia doble exposición' },
       { src: oliviaBanoRosa, alt: 'Olivia en baño rosa' },
       { src: mario3, alt: 'Retrato de Mario' },
       { src: ireneDobleExposicion, alt: 'Irene doble exposición' },
@@ -121,7 +122,6 @@ const seriesData: Record<string, SeriesData> = {
       { src: saraSombrasHelecho, alt: 'Sara con sombras de helecho' },
       { src: retratoJuanito, alt: 'Retrato de Juanito' },
       { src: oliviaClaveles, alt: 'Olivia con claveles' },
-      { src: claudiaSpiderman, alt: 'Claudia doble exposición' },
       { src: mariaEIreneLuces, alt: 'María e Irene con luces' },
       { src: juanAdolfo, alt: 'Retrato de Juan Adolfo' },
     ],
