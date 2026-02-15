@@ -32,7 +32,7 @@ const Autorretrato: React.FC = () => {
     { src: lagrimasFlores, alt: 'Lágrimas y flores', caption: 'Lágrimas y flores' },
     { src: lampara, alt: 'Lámpara', caption: 'Lámpara' },
     { src: oukaLelee, alt: 'Ouka Leele', caption: 'Ouka Leele' },
-    { src: beaLimonadaVerde, alt: 'Bea limonada verde', caption: 'Bea limonada verde' },
+    { src: beaLimonadaVerde, alt: 'Si la vida te da limones, LI-MONADA', caption: 'Si la vida te da limones, LI-MONADA' },
   ];
 
   return (
