@@ -202,14 +202,14 @@ const Lightbox: React.FC<LightboxProps> = ({
         <>
           <button
             onClick={onPrevious}
-            className="absolute left-4 top-1/2 -translate-y-1/2 z-20 p-2 text-foreground/40 hover:text-foreground transition-colors hidden md:block"
+            className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-20 p-2 text-foreground/40 hover:text-foreground transition-colors"
             aria-label="Previous image"
           >
             <ChevronLeft size={40} />
           </button>
           <button
             onClick={onNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 z-20 p-2 text-foreground/40 hover:text-foreground transition-colors hidden md:block"
+            className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-20 p-2 text-foreground/40 hover:text-foreground transition-colors"
             aria-label="Next image"
           >
             <ChevronRight size={40} />
