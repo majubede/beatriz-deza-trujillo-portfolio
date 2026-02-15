@@ -69,6 +69,7 @@ const translations: Record<Language, Record<string, string>> = {
     'contact.message': 'Mensaje',
     'contact.send': 'Enviar mensaje',
     'contact.success': 'Mensaje enviado. Gracias por contactar.',
+    'contact.error': 'Error al enviar el mensaje. Inténtalo de nuevo.',
     
     // Series
     'series.dreamrain': 'Dream Rain',
@@ -196,6 +197,7 @@ const translations: Record<Language, Record<string, string>> = {
     'contact.message': 'Message',
     'contact.send': 'Send message',
     'contact.success': 'Message sent. Thank you for reaching out.',
+    'contact.error': 'Failed to send message. Please try again.',
     
     // Series
     'series.dreamrain': 'Dream Rain',
