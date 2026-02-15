@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import ImageGallery from '@/components/gallery/ImageGallery';
@@ -186,6 +186,16 @@ const SeriesDetail: React.FC = () => {
         {/* Gallery */}
         <div className="max-w-4xl mx-auto fade-in-up">
           <ImageGallery images={series.images} mode={viewMode} showCaptions />
+        </div>
+
+        {/* Back to Obra */}
+        <div className="max-w-4xl mx-auto mt-16 pt-8 border-t border-border text-center fade-in">
+          <Link
+            to="/obra"
+            className="btn-gallery-subtle"
+          >
+            ← Volver a Obra
+          </Link>
         </div>
       </article>
     </Layout>
