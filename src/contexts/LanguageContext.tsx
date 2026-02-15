@@ -18,8 +18,8 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'Contacto',
     
     // Home Hero
-    'home.hero.title': 'Memoria, identidad y territorio.',
-    'home.hero.subtitle': 'Donde el color piensa y el cuerpo se vuelve lenguaje.',
+    'home.hero.title': 'Fotografía: memoria, identidad y territorio.',
+    'home.hero.subtitle': 'Color y cuerpo como lenguaje.',
     'home.cta.work': 'Ver Obra',
     'home.cta.mujerx': 'Ver Mujer X',
     'home.cta.contact': 'Contacto',
@@ -146,8 +146,8 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'Contact',
     
     // Home Hero
-    'home.hero.title': 'Memory, identity, and territory.',
-    'home.hero.subtitle': 'Where color thinks and the body becomes a language.',
+    'home.hero.title': 'Photography: memory, identity, and territory.',
+    'home.hero.subtitle': 'Color and body as language.',
     'home.cta.work': 'View Work',
     'home.cta.mujerx': 'View Mujer X',
     'home.cta.contact': 'Contact',
