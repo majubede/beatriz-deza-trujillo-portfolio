@@ -222,7 +222,7 @@
 
   .hero-subtitle {
     font-family: var(--font-serif);
-    @apply text-lg md:text-xl font-light italic text-muted-foreground leading-relaxed;
+    @apply text-xl md:text-2xl lg:text-3xl font-light italic text-muted-foreground leading-relaxed;
   }
 
   /* Section titles */
