@@ -28,7 +28,7 @@ const Header: React.FC = () => {
             className="font-serif text-lg md:text-xl tracking-wide transition-opacity duration-300 hover:opacity-70"
             style={{ fontFamily: 'var(--font-serif)' }}
           >
-            Beatriz Deza Trujillo
+            <span style={{ fontFamily: "'Elegant', serif" }}>Beatriz Deza</span>
           </Link>
 
           {/* Desktop Navigation */}
