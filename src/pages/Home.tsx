@@ -52,7 +52,7 @@ const Home: React.FC = () => {
 
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6 fade-in-up">
-          <h1 className="hero-title mb-6 whitespace-pre-line">
+          <h1 className="hero-title mb-6 whitespace-pre-line text-foreground/90" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.1)' }}>
             {t('home.hero.title')}
           </h1>
           <p className="hero-subtitle max-w-2xl mx-auto mb-10 whitespace-pre-line">
