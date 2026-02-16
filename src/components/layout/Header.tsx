@@ -25,8 +25,7 @@ const Header: React.FC = () => {
           {/* Logo / Name */}
           <Link 
             to="/" 
-            className="font-serif text-lg md:text-xl tracking-wide transition-opacity duration-300 hover:opacity-70"
-            style={{ fontFamily: 'var(--font-serif)' }}
+            className="tracking-wide transition-opacity duration-300 hover:opacity-70 text-2xl md:text-3xl"
           >
             <span style={{ fontFamily: "'Elegant', serif" }}>Beatriz Deza</span>
           </Link>
