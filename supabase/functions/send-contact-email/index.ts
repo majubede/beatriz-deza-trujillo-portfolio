@@ -44,7 +44,7 @@ serve(async (req) => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Formulario Web <onboarding@resend.dev>",
+        from: "Formulario Web <contacto@beatrizdezaphoto.com>",
         to: ["beatrizdezaphoto@gmail.com"],
         subject: `[Web] ${subjectLabel} — ${name}`,
         reply_to: email,
