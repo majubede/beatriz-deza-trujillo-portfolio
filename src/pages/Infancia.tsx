@@ -20,6 +20,7 @@ import calleNocturnaByn from '@/assets/infancia/calle-nocturna-byn.jpg';
 import columpioDoble from '@/assets/infancia/columpio-doble.jpg';
 import playaGuardamar from '@/assets/infancia/playa-guardamar.jpg';
 import sabanaArboles from '@/assets/infancia/sabana-arboles.jpg';
+import escalerasEscorial from '@/assets/infancia/escaleras-escorial.jpg';
 
 import habitacionMotel from '@/assets/infancia/habitacion-motel.jpg';
 import banquetaPajaro from '@/assets/infancia/banqueta-pajaro.jpg';
@@ -46,6 +47,7 @@ const Infancia: React.FC = () => {
     { src: sabanaArboles, alt: 'Olivia levantando la sábana entre los árboles' },
     
     { src: habitacionMotel, alt: 'Olivia habitación motel doble exposición' },
+    { src: escalerasEscorial, alt: 'Olivia en las escaleras del Escorial' },
     { src: banquetaPajaro, alt: 'Olivia sentada con pájaro' },
     { src: sillaCalle, alt: 'Olivia en silla en la calle' },
     { src: dobleExposicionTutu, alt: 'Olivia doble exposición vestido burdeos' },
