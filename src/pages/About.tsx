@@ -22,7 +22,7 @@ const About: React.FC = () => {
           {/* Long Bio */}
           <section className="mb-12 fade-in-up" style={{ animationDelay: '0.1s' }}>
             {t('about.bio.long').split('\n\n').map((paragraph, index) => (
-              <p key={index} className="body-curatorial mb-4">
+              <p key={index} className="body-curatorial mb-4 whitespace-pre-line">
                 {paragraph}
               </p>
             ))}
