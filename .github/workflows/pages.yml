@@ -20,12 +20,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
+      - uses: oven-sh/setup-bun@v2
 
-      - run: npm ci
+      - run: bun install
       - run: npm run build
 
       # SPA fallback (para que al refrescar /obra, /cv, etc. no dé 404)
