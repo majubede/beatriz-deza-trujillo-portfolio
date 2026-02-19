@@ -1,19 +1,36 @@
 
-## Cambiar el favicon del navegador
+## Cambiar la tipografía de "Beatriz Deza" a Playfair Display
 
-El objetivo es reemplazar el icono actual (el de Lovable) que aparece en la pestaña del navegador por tu logo **B|D**.
+### Qué se va a cambiar
+El nombre **Beatriz Deza** en la cabecera (header) de la web, que actualmente usa la fuente personalizada *Elegant*, pasará a usar la fuente **Playfair Display** que has subido.
 
-### Pasos a realizar
+### Pasos técnicos
 
-1. **Copiar la imagen** `user-uploads://PORTADA_WEB-4.jpg` a la carpeta `public/` del proyecto como `favicon.png`
+**1. Copiar el archivo de fuente al proyecto**
+El archivo `PlayfairDisplay-VariableFont_wght.ttf` se copiará a `public/fonts/` para que esté disponible junto al resto de fuentes.
 
-2. **Actualizar `index.html`** para que apunte al nuevo favicon:
-   ```html
-   <link rel="icon" type="image/png" href="/favicon.png" />
-   ```
-   (reemplazando la línea actual que apunta a `/favicon.ico`)
+**2. Registrar la fuente en el CSS global (`src/index.css`)**
+Se añadirá un bloque `@font-face` junto al de la fuente *Elegant* actual:
+```css
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+```
+Al ser una fuente variable, se declara el rango completo de pesos (`100 900`).
+
+**3. Actualizar el Header (`src/components/layout/Header.tsx`)**
+La línea que aplica la fuente al nombre en la cabecera:
+```jsx
+// Antes:
+<span style={{ fontFamily: "'Elegant', serif" }}>Beatriz Deza</span>
+
+// Después:
+<span style={{ fontFamily: "'Playfair Display', serif" }}>Beatriz Deza</span>
+```
 
 ### Resultado
-El logo circular con las iniciales **B|D** aparecerá en la pestaña del navegador y en los marcadores cuando alguien guarde tu web.
-
-> Nota: El archivo se guardará como `.png` ya que el logo tiene mejor calidad en ese formato que en `.ico`.
+"Beatriz Deza" en la pestaña superior de la web aparecerá con la tipografía Playfair Display. El resto de la web (navegación, textos, títulos) no se verá afectado.
