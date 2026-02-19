@@ -27,7 +27,7 @@ const Header: React.FC = () => {
             to="/" 
             className="tracking-wide transition-opacity duration-300 hover:opacity-70 text-2xl md:text-3xl"
           >
-            <span style={{ fontFamily: "'Elegant', serif" }}>Beatriz Deza</span>
+            <span style={{ fontFamily: "'Playfair Display', serif" }}>Beatriz Deza</span>
           </Link>
 
           {/* Desktop Navigation */}
