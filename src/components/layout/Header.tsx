@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logoBD from '@/assets/logo-bd.jpg';
 import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Menu, X } from 'lucide-react';
@@ -25,9 +26,14 @@ const Header: React.FC = () => {
           {/* Logo / Name */}
           <Link 
             to="/" 
-            className="tracking-wide transition-opacity duration-300 hover:opacity-70 text-2xl md:text-3xl"
+            className="flex items-center gap-3 tracking-wide transition-opacity duration-300 hover:opacity-70"
           >
-            <span style={{ fontFamily: "'Playfair Display', serif" }}>Beatriz Deza</span>
+            <img
+              src={logoBD}
+              alt="BD logo"
+              className="h-9 md:h-11 w-auto object-contain"
+            />
+            <span className="text-2xl md:text-3xl" style={{ fontFamily: "'Playfair Display', serif" }}>Beatriz Deza</span>
           </Link>
 
           {/* Desktop Navigation */}
