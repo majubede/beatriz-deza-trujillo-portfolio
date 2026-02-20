@@ -31,7 +31,7 @@ const Header: React.FC = () => {
             <img
               src={logoBD}
               alt="BD logo"
-              className="h-9 md:h-11 w-auto object-contain"
+              className="h-8 md:h-10 w-auto object-contain opacity-75"
             />
             <span className="text-2xl md:text-3xl" style={{ fontFamily: "'Playfair Display', serif" }}>Beatriz Deza</span>
           </Link>
