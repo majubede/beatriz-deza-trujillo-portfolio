@@ -91,11 +91,6 @@ const MujerX: React.FC = () => {
       caption: 'Dana',
     },
     {
-      src: anestesiaColectivaImage,
-      alt: 'Mujer X - Anestesia Colectiva',
-      caption: 'Anestesia Colectiva',
-    },
-    {
       src: suspendedImage,
       alt: 'Mujer X - Germinación suspendida',
       caption: 'Germinación suspendida',
@@ -119,6 +114,11 @@ const MujerX: React.FC = () => {
       src: raizImage,
       alt: 'Mujer X - Raíz',
       caption: 'Raíz',
+    },
+    {
+      src: anestesiaColectivaImage,
+      alt: 'Mujer X - Anestesia Colectiva',
+      caption: 'Anestesia Colectiva',
     },
   ];
 
