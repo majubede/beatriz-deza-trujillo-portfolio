@@ -225,7 +225,7 @@
   /* Hero section styling */
   .hero-title {
     font-family: var(--font-serif);
-    @apply text-3xl md:text-4xl lg:text-5xl font-normal leading-tight tracking-tight;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal leading-tight tracking-tight;
   }
 
   .hero-subtitle {
