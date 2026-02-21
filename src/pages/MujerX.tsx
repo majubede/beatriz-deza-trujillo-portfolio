@@ -22,6 +22,7 @@ import virgoImage from '@/assets/mujerx/virgo.jpg';
 import enraizarImage from '@/assets/mujerx/enraizar.jpg';
 import nidoVacioImage from '@/assets/mujerx/nido-vacio.jpg';
 import raizImage from '@/assets/mujerx/raiz.jpg';
+import anestesiaColectivaImage from '@/assets/mujerx/anestesia-colectiva.jpg';
 
 const MujerX: React.FC = () => {
   const { t } = useLanguage();
@@ -88,6 +89,11 @@ const MujerX: React.FC = () => {
       src: danaImage,
       alt: 'Mujer X - Dana',
       caption: 'Dana',
+    },
+    {
+      src: anestesiaColectivaImage,
+      alt: 'Mujer X - Anestesia Colectiva',
+      caption: 'Anestesia Colectiva',
     },
     {
       src: suspendedImage,
