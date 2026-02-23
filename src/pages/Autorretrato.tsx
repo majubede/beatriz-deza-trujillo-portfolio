@@ -16,6 +16,8 @@ import lagrimasFlores from '@/assets/autorretrato/lagrimas-flores.jpg';
 import lampara from '@/assets/autorretrato/lampara.jpg';
 import oukaLelee from '@/assets/autorretrato/ouka-lelee.jpg';
 import beaLimonadaVerde from '@/assets/autorretrato/bea-limonada-verde.jpg';
+import elMundoEstaDeLuto from '@/assets/autorretrato/el-mundo-esta-de-luto.jpg';
+import espaldaAlmendro from '@/assets/autorretrato/espalda-almendro.jpg';
 
 const Autorretrato: React.FC = () => {
   const { t } = useLanguage();
@@ -33,6 +35,8 @@ const Autorretrato: React.FC = () => {
     { src: lampara, alt: 'Lámpara', caption: 'Lámpara' },
     { src: oukaLelee, alt: 'Ouka Leele', caption: 'Ouka Leele' },
     { src: beaLimonadaVerde, alt: 'Si la vida te da limones, LI-MONADA', caption: 'Si la vida te da limones, LI-MONADA' },
+    { src: elMundoEstaDeLuto, alt: 'El mundo está de luto', caption: 'El mundo está de luto' },
+    { src: espaldaAlmendro, alt: 'Espalda almendro', caption: 'Espalda almendro' },
   ];
 
   return (
