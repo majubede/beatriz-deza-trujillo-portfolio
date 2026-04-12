@@ -23,6 +23,7 @@ import enraizarImage from '@/assets/mujerx/enraizar.jpg';
 import nidoVacioImage from '@/assets/mujerx/nido-vacio.jpg';
 import raizImage from '@/assets/mujerx/raiz.jpg';
 import anestesiaColectivaImage from '@/assets/mujerx/anestesia-colectiva.jpg';
+import variacionesImage from '@/assets/mujerx/variaciones-de-una-tachadura.jpg';
 
 const MujerX: React.FC = () => {
   const { t } = useLanguage();
@@ -119,6 +120,11 @@ const MujerX: React.FC = () => {
       src: anestesiaColectivaImage,
       alt: 'Mujer X - Anestesia Colectiva',
       caption: 'Anestesia Colectiva',
+    },
+    {
+      src: variacionesImage,
+      alt: 'Mujer X - Variaciones de una tachadura',
+      caption: 'Variaciones de una tachadura',
     },
   ];
 
