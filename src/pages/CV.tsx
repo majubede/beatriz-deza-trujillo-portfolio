@@ -30,6 +30,9 @@ const CV: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const awards: CVItem[] = [
+    { year: '2026', title: language === 'es' ? '3º Premio — "Ruinas de Babilonia" (Ayto. Las Rozas)' : '3rd Prize — "Ruins of Babylon" (Las Rozas City Council)' },
+    { year: '2026', title: language === 'es' ? '2º Premio — "No es un juego" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : '2nd Prize — "Not a Game" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
+    { year: '2026', title: language === 'es' ? 'Accésit — "A salvo" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : 'Honourable Mention — "Safe" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
     { year: '2025', title: language === 'es' ? 'Finalista — #RecorridosUrbanosPHE25 (PhotoEspaña + Oneshot Hotels)' : 'Finalist — #RecorridosUrbanosPHE25 (PhotoEspaña + Oneshot Hotels)' },
     { year: '2025', title: language === 'es' ? 'Obra seleccionada — Premio de Retrato Carmelo Tartón (RSFZ)' : 'Selected Work — Carmelo Tartón Portrait Award (RSFZ)' },
     { year: '2025', title: language === 'es' ? '1º Premio — #mipostaldelverano (Zenda Libros + Iberdrola)' : '1st Prize — #mipostaldelverano (Zenda Libros + Iberdrola)' },
