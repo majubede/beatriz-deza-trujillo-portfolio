@@ -10,6 +10,8 @@ import expoCameraWorksAutorretrato from '@/assets/cv/expo-cameraworks-autorretra
 import expoAutorretratoPandemia from '@/assets/cv/expo-autorretrato-pandemia.jpg';
 import expoArles from '@/assets/cv/expo-arles.jpg';
 import expoRecorridosUrbanos from '@/assets/cv/expo-recorridos-urbanos.jpg';
+import expoPostcards from '@/assets/cv/expo-postcards.jpg';
+import expoHomes from '@/assets/cv/expo-homes.jpg';
 
 interface CVItem {
   year: string;
@@ -41,6 +43,8 @@ const CV: React.FC = () => {
     { src: expoAutorretratoPandemia, alt: 'Autorretrato en tiempos de pandemia' },
     { src: expoArles, alt: 'Art-Icon Arles' },
     { src: expoRecorridosUrbanos, alt: 'Recorridos Urbanos PHE25' },
+    { src: expoPostcards, alt: 'Postcards — Images and Whispers' },
+    { src: expoHomes, alt: 'HOME-S — Photopolis Agrinio Photo Festival' },
   ];
 
   const publications: CVItem[] = [
