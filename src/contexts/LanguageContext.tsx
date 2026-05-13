@@ -129,6 +129,13 @@ const translations: Record<Language, Record<string, string>> = {
     'series.olivias': 'Infancia',
     'series.olivias.year': '2024',
     'series.olivias.text': 'El universo visual de Olivia: infancia, juego y mirada.',
+
+    'series.bosquesur': 'Bosquesur',
+    'series.bosquesur.year': '2025',
+    'series.bosquesur.short': 'Bosquesur es un paseo por un bosque cercano transformado en territorio onírico, donde el negativo invierte lo familiar y abre un espacio entre lo real y lo imaginado.',
+    'bosquesur.title': 'Bosquesur',
+    'bosquesur.short': 'Bosquesur es un paseo por un bosque cercano transformado en territorio onírico, donde el negativo invierte lo familiar y abre un espacio entre lo real y lo imaginado.',
+    'bosquesur.long': 'El verde profundo y el rosa contenido convierten árboles, ramas y caminos en una atmósfera suspendida, casi nocturna a plena luz.\nLa serie recorre el bosque como quien recorre la memoria: del dosel a la senda, del claro al detalle frágil, hasta llegar a la torre eléctrica que recuerda que la naturaleza nunca está sola.',
     
     // Footer
     'footer.rights': 'Todos los derechos reservados',
@@ -257,6 +264,13 @@ const translations: Record<Language, Record<string, string>> = {
     'series.olivias': 'Childhood',
     'series.olivias.year': '2024',
     'series.olivias.text': "Olivia's visual universe: childhood, play, and perspective.",
+
+    'series.bosquesur': 'Bosquesur',
+    'series.bosquesur.year': '2025',
+    'series.bosquesur.short': 'Bosquesur is a walk through a nearby forest turned into a dreamlike territory, where the negative inverts the familiar and opens a space between the real and the imagined.',
+    'bosquesur.title': 'Bosquesur',
+    'bosquesur.short': 'Bosquesur is a walk through a nearby forest turned into a dreamlike territory, where the negative inverts the familiar and opens a space between the real and the imagined.',
+    'bosquesur.long': 'Deep green and restrained pink turn trees, branches, and paths into a suspended atmosphere—nocturnal in broad daylight.\nThe series moves through the forest the way one moves through memory: from canopy to path, from clearing to fragile detail, until reaching the electrical tower that reminds us nature is never alone.',
     
     // Footer
     'footer.rights': 'All rights reserved',
