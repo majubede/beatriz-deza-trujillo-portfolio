@@ -24,6 +24,7 @@ import nidoVacioImage from '@/assets/mujerx/nido-vacio.jpg';
 import raizImage from '@/assets/mujerx/raiz.jpg';
 import anestesiaColectivaImage from '@/assets/mujerx/anestesia-colectiva.jpg';
 import variacionesImage from '@/assets/mujerx/variaciones-de-una-tachadura.jpg';
+import bosqueImage from '@/assets/mujerx/bosque.jpg';
 
 const MujerX: React.FC = () => {
   const { t } = useLanguage();
@@ -125,6 +126,11 @@ const MujerX: React.FC = () => {
       src: variacionesImage,
       alt: 'Mujer X - Variaciones de una tachadura',
       caption: 'Variaciones de una tachadura',
+    },
+    {
+      src: bosqueImage,
+      alt: 'Mujer X - Bosque',
+      caption: 'Bosque',
     },
   ];
 
