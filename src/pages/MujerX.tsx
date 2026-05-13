@@ -127,6 +127,11 @@ const MujerX: React.FC = () => {
       alt: 'Mujer X - Variaciones de una tachadura',
       caption: 'Variaciones de una tachadura',
     },
+    {
+      src: bosqueImage,
+      alt: 'Mujer X - Bosque',
+      caption: 'Bosque',
+    },
   ];
 
   return (
