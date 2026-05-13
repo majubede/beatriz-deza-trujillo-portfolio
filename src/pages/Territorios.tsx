@@ -110,6 +110,14 @@ import barbieAmigos4 from '@/assets/territorios/barbie-y-sus-amigos-4.jpg';
 import barbieAmigos5 from '@/assets/territorios/barbie-y-sus-amigos-5.jpg';
 import barbieAmigos6 from '@/assets/territorios/barbie-y-sus-amigos-6.jpg';
 
+// Bosquesur images
+import bosquesur1 from '@/assets/bosquesur/bosquesur-1.jpg';
+import bosquesur2 from '@/assets/bosquesur/bosquesur-2.jpg';
+import bosquesur3 from '@/assets/bosquesur/bosquesur-3.jpg';
+import bosquesur4 from '@/assets/bosquesur/bosquesur-4.jpg';
+import bosquesur5 from '@/assets/bosquesur/bosquesur-5.jpg';
+import bosquesur6 from '@/assets/bosquesur/bosquesur-6.jpg';
+
 interface Subseries {
   slug: string;
   titleKey: string;
@@ -269,6 +277,18 @@ const Territorios: React.FC = () => {
         { src: procesion18, alt: 'Noche de procesión XVIII', caption: 'XVIII' },
       ],
     },
+    {
+      slug: 'bosquesur',
+      titleKey: 'territorios.sub.bosquesur',
+      images: [
+        { src: bosquesur1, alt: 'Bosquesur I', caption: 'I' },
+        { src: bosquesur4, alt: 'Bosquesur II', caption: 'II' },
+        { src: bosquesur2, alt: 'Bosquesur III', caption: 'III' },
+        { src: bosquesur3, alt: 'Bosquesur IV', caption: 'IV' },
+        { src: bosquesur6, alt: 'Bosquesur V', caption: 'V' },
+        { src: bosquesur5, alt: 'Bosquesur VI', caption: 'VI' },
+      ],
+    },
   ];
 
   const toggleSubseries = (slug: string) => {
@@ -337,6 +357,9 @@ const Territorios: React.FC = () => {
                   )}
                   {sub.slug === 'noche-de-procesion' && (
                     <p className="body-curatorial mb-6">{t('series.territorios.procesion.text')}</p>
+                  )}
+                  {sub.slug === 'bosquesur' && (
+                    <p className="body-curatorial mb-6 whitespace-pre-line">{t('series.territorios.bosquesur.text')}</p>
                   )}
                   {/* View Mode Toggle */}
                   <div className="flex items-center gap-4 mb-6">

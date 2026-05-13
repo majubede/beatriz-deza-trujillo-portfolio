@@ -9,7 +9,6 @@ import walkingTogetherImage from '@/assets/walking-together.jpg';
 import ensayoRosaImage from '@/assets/ensayo-en-rosa.jpg';
 import genteCoverImage from '@/assets/gente-cover.jpg';
 import autorretratoCoverImage from '@/assets/autorretrato-cover.jpg';
-import bosquesurCoverImage from '@/assets/bosquesur/bosquesur-1.jpg';
 
 const Obra: React.FC = () => {
   const { t } = useLanguage();
@@ -29,13 +28,6 @@ const Obra: React.FC = () => {
       year: t('series.territorios.year'),
       description: t('series.territorios.text'),
       thumbnailSrc: territoriosImage,
-    },
-    {
-      slug: 'bosquesur',
-      title: t('series.bosquesur'),
-      year: t('series.bosquesur.year'),
-      description: t('series.bosquesur.short'),
-      thumbnailSrc: bosquesurCoverImage,
     },
     {
       slug: 'autorretrato',
