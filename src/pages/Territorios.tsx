@@ -117,6 +117,7 @@ import bosquesur3 from '@/assets/bosquesur/bosquesur-3.jpg';
 import bosquesur4 from '@/assets/bosquesur/bosquesur-4.jpg';
 import bosquesur5 from '@/assets/bosquesur/bosquesur-5.jpg';
 import bosquesur6 from '@/assets/bosquesur/bosquesur-6.jpg';
+import bosquesur7 from '@/assets/bosquesur/bosquesur-7.jpg';
 
 interface Subseries {
   slug: string;
