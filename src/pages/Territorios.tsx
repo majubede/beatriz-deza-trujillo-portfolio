@@ -358,6 +358,9 @@ const Territorios: React.FC = () => {
                   {sub.slug === 'noche-de-procesion' && (
                     <p className="body-curatorial mb-6">{t('series.territorios.procesion.text')}</p>
                   )}
+                  {sub.slug === 'bosquesur' && (
+                    <p className="body-curatorial mb-6 whitespace-pre-line">{t('series.territorios.bosquesur.text')}</p>
+                  )}
                   {/* View Mode Toggle */}
                   <div className="flex items-center gap-4 mb-6">
                     <button
