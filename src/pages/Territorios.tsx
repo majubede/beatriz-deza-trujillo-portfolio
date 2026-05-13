@@ -117,6 +117,7 @@ import bosquesur3 from '@/assets/bosquesur/bosquesur-3.jpg';
 import bosquesur4 from '@/assets/bosquesur/bosquesur-4.jpg';
 import bosquesur5 from '@/assets/bosquesur/bosquesur-5.jpg';
 import bosquesur6 from '@/assets/bosquesur/bosquesur-6.jpg';
+import bosquesur7 from '@/assets/bosquesur/bosquesur-7.jpg';
 
 interface Subseries {
   slug: string;
@@ -283,10 +284,11 @@ const Territorios: React.FC = () => {
       images: [
         { src: bosquesur1, alt: 'Bosquesur I', caption: 'I' },
         { src: bosquesur4, alt: 'Bosquesur II', caption: 'II' },
-        { src: bosquesur2, alt: 'Bosquesur III', caption: 'III' },
-        { src: bosquesur3, alt: 'Bosquesur IV', caption: 'IV' },
-        { src: bosquesur6, alt: 'Bosquesur V', caption: 'V' },
-        { src: bosquesur5, alt: 'Bosquesur VI', caption: 'VI' },
+        { src: bosquesur7, alt: 'Bosquesur III', caption: 'III' },
+        { src: bosquesur2, alt: 'Bosquesur IV', caption: 'IV' },
+        { src: bosquesur3, alt: 'Bosquesur V', caption: 'V' },
+        { src: bosquesur6, alt: 'Bosquesur VI', caption: 'VI' },
+        { src: bosquesur5, alt: 'Bosquesur VII', caption: 'VII' },
       ],
     },
   ];
