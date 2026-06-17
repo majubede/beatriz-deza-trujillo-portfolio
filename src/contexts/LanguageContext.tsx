@@ -48,7 +48,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // CV
     'cv.title': 'CV',
-    'cv.awards': 'Premios y Selecciones',
+    'cv.awards': 'Premios, Selecciones y Becas',
     'cv.exhibitions': 'Exposiciones',
     'cv.publications': 'Publicaciones / Portadas',
     'cv.projects': 'Proyectos Especiales',
