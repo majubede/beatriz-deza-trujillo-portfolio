@@ -52,7 +52,7 @@ const CV: React.FC = () => {
   ];
 
   const publications: CVItem[] = [
-    { year: '2026', title: language === 'es' ? 'Analog Forever Magazine — selección "20 Experimental Photographers"' : 'Analog Forever Magazine — selection "20 Experimental Photographers"' },
+    { year: '2026', title: language === 'es' ? 'Analog Forever Magazine — "20 Experimental Photographers"' : 'Analog Forever Magazine — "20 Experimental Photographers"' },
     { year: '2026', title: language === 'es' ? 'Desphotomag — especial editorial (3 páginas)' : 'Desphotomag — editorial feature (3 pages)' },
     { year: '2026', title: language === 'es' ? 'Portada — La grieta reina' : 'Cover — La grieta reina' },
     { year: '2025', title: 'Desphotomag TopBest Magazine — Q3 2025' },
