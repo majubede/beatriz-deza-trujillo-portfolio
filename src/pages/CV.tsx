@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Layout from '@/components/layout/Layout';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 // Exhibition images
 import expoCameraWorksSemana from '@/assets/cv/expo-cameraworks-semanasanta.jpg';
