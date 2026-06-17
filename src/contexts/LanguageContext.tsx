@@ -179,7 +179,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // CV
     'cv.title': 'CV',
-    'cv.awards': 'Awards & Selections',
+    'cv.awards': 'Awards, Selections & Grants',
     'cv.exhibitions': 'Exhibitions',
     'cv.publications': 'Publications / Covers',
     'cv.projects': 'Special Projects',
