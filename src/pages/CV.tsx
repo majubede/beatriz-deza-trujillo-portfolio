@@ -30,6 +30,7 @@ const CV: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const awards: CVItem[] = [
+    { year: '2026', title: language === 'es' ? 'Beca Talento PhotoESPAÑA 2026–2027 (Proyecto Los que permanecen)' : 'PhotoESPAÑA Talent Grant 2026–2027 (Project Those Who Remain)' },
     { year: '2026', title: language === 'es' ? '3º Premio — "Ruinas de Babilonia" (Ayto. Las Rozas)' : '3rd Prize — "Ruins of Babylon" (Las Rozas City Council)' },
     { year: '2026', title: language === 'es' ? '2º Premio — "No es un juego" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : '2nd Prize — "Not a Game" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
     { year: '2026', title: language === 'es' ? 'Accésit — "A salvo" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : 'Honourable Mention — "Safe" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
