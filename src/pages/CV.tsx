@@ -112,6 +112,24 @@ const CV: React.FC = () => {
     </section>
   );
 
+  const AwardsSection: React.FC = () => (
+    <section className="mb-12">
+      <h2 className="font-serif text-xl mb-6 pb-2 border-b border-border">{t('cv.awards')}</h2>
+      <div className="space-y-6">
+        {awardsGrouped.map((group) => (
+          <div key={group.year}>
+            <h3 className="text-muted-foreground text-sm mb-2">{group.year}</h3>
+            <ul className="space-y-2">
+              {group.items.map((item, index) => (
+                <li key={index} className="text-foreground">{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+
   const ExhibitionsSection: React.FC = () => (
     <section className="mb-12">
       <h2 className="font-serif text-xl mb-6 pb-2 border-b border-border">{t('cv.exhibitions')}</h2>
@@ -141,7 +159,7 @@ const CV: React.FC = () => {
           <h1 className="section-title mb-10 fade-in">{t('cv.title')}</h1>
 
           <div className="fade-in-up">
-            <CVSection title={t('cv.awards')} items={awards} />
+            <AwardsSection />
             <ExhibitionsSection />
             <CVSection title={t('cv.publications')} items={publications} />
             <CVSection title={t('cv.projects')} items={specialProjects} />
