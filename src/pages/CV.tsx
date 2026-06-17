@@ -34,24 +34,24 @@ const CV: React.FC = () => {
     {
       year: '2026',
       items: [
-        language === 'es' ? 'Beca Talento PhotoESPAÑA 2026–2027 — Los que permanecen' : 'PhotoESPAÑA Talent Grant 2026–2027 — Those Who Remain',
-        language === 'es' ? '3º Premio — "Ruinas de Babilonia" (Ayto. Las Rozas)' : '3rd Prize — "Ruins of Babylon" (Las Rozas City Council)',
-        language === 'es' ? '2º Premio — "No es un juego" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : '2nd Prize — "Not a Game" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)',
-        language === 'es' ? 'Accésit — "A salvo" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : 'Honourable Mention — "Safe" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)',
+        { text: language === 'es' ? 'Beca Talento PhotoESPAÑA 2026–2027 — Los que permanecen' : 'PhotoESPAÑA Talent Grant 2026–2027 — Those Who Remain', highlight: true },
+        { text: language === 'es' ? '3º Premio — "Ruinas de Babilonia" (Ayto. Las Rozas)' : '3rd Prize — "Ruins of Babylon" (Las Rozas City Council)' },
+        { text: language === 'es' ? '2º Premio — "No es un juego" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : '2nd Prize — "Not a Game" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
+        { text: language === 'es' ? 'Accésit — "A salvo" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : 'Honourable Mention — "Safe" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
       ],
     },
     {
       year: '2025',
       items: [
-        language === 'es' ? 'Finalista — #RecorridosUrbanosPHE25 (PhotoEspaña + One Shot Hotels)' : 'Finalist — #RecorridosUrbanosPHE25 (PhotoEspaña + One Shot Hotels)',
-        language === 'es' ? 'Obra seleccionada — Premio de Retrato Carmelo Tartón (RSFZ)' : 'Selected Work — Carmelo Tartón Portrait Award (RSFZ)',
-        language === 'es' ? '1º Premio — #mipostaldelverano (Zenda Libros + Iberdrola)' : '1st Prize — #mipostaldelverano (Zenda Libros + Iberdrola)',
+        { text: language === 'es' ? 'Finalista — #RecorridosUrbanosPHE25 (PhotoEspaña + One Shot Hotels)' : 'Finalist — #RecorridosUrbanosPHE25 (PhotoEspaña + One Shot Hotels)' },
+        { text: language === 'es' ? 'Obra seleccionada — Premio de Retrato Carmelo Tartón (RSFZ)' : 'Selected Work — Carmelo Tartón Portrait Award (RSFZ)' },
+        { text: language === 'es' ? '1º Premio — #mipostaldelverano (Zenda Libros + Iberdrola)' : '1st Prize — #mipostaldelverano (Zenda Libros + Iberdrola)' },
       ],
     },
     {
       year: '2024',
       items: [
-        language === 'es' ? '3º Premio — "Carmen Alborch" (Ayto. Fuenlabrada + Asoc. Pandora)' : '3rd Prize — "Carmen Alborch" (Fuenlabrada City Council + Pandora Association)',
+        { text: language === 'es' ? '3º Premio — "Carmen Alborch" (Ayto. Fuenlabrada + Asoc. Pandora)' : '3rd Prize — "Carmen Alborch" (Fuenlabrada City Council + Pandora Association)' },
       ],
     },
   ];
