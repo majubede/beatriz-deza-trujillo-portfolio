@@ -119,7 +119,7 @@ const CV: React.FC = () => {
       <div className="space-y-6">
         {awardsGrouped.map((group) => (
           <div key={group.year}>
-            <h3 className="text-foreground text-base font-semibold mb-3">{group.year}</h3>
+            <h3 className="text-foreground text-base font-medium mb-5">{group.year}</h3>
             <ul className="space-y-2">
               {group.items.map((item, index) => (
                 <li key={index} className={cn("text-foreground", item.highlight && "font-bold")}>
