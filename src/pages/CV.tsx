@@ -116,20 +116,16 @@ const CV: React.FC = () => {
   const AwardsSection: React.FC = () => (
     <section className="mb-12">
       <h2 className="font-serif text-xl mb-6 pb-2 border-b border-border">{t('cv.awards')}</h2>
-      <div className="space-y-6">
-        {awardsGrouped.map((group) => (
-          <div key={group.year}>
-            <h3 className="text-foreground text-lg font-bold mb-5">{group.year}</h3>
-            <ul className="space-y-2">
-              {group.items.map((item, index) => (
-                <li key={index} className={cn("text-foreground", item.highlight && "font-bold")}>
-                  {item.text}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
+      <ul className="space-y-3">
+        {awardsGrouped.flatMap((group) =>
+          group.items.map((item, index) => (
+            <li key={`${group.year}-${index}`} className="flex gap-4">
+              <span className="text-muted-foreground text-sm w-12 flex-shrink-0">{index === 0 ? group.year : ''}</span>
+              <span className={cn("text-foreground", item.highlight && "font-bold")}>{item.text}</span>
+            </li>
+          ))
+        )}
+      </ul>
     </section>
   );
 
