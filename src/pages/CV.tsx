@@ -123,7 +123,7 @@ const CV: React.FC = () => {
           group.items.map((item, index) => (
             <li key={`${group.year}-${index}`} className="flex gap-4">
               <span className="text-muted-foreground text-sm w-12 flex-shrink-0">{index === 0 ? group.year : ''}</span>
-              <span className={cn("text-foreground", item.highlight && "font-bold")}>{item.text}</span>
+              <span className={cn("text-foreground", item.highlight && "font-bold", item.accent && "text-blue-600 dark:text-blue-400")}>{item.text}</span>
             </li>
           ))
         )}
