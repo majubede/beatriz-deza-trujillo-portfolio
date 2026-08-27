@@ -35,7 +35,7 @@ const CV: React.FC = () => {
       year: '2026',
       items: [
         { text: language === 'es' ? 'Beca Talento PhotoESPAÑA 2026–2027 — Los que permanecen' : 'PhotoESPAÑA Talent Grant 2026–2027 — Those Who Remain', highlight: true },
-        { text: language === 'es' ? 'Pingyao International Photography Festival 2026 — Mujer X' : 'Pingyao International Photography Festival 2026 — Mujer X' },
+        { text: language === 'es' ? 'Pingyao International Photography Festival 2026 — Mujer X' : 'Pingyao International Photography Festival 2026 — Mujer X', accent: true },
         { text: language === 'es' ? '3º Premio — "Ruinas de Babilonia" (Ayto. Las Rozas)' : '3rd Prize — "Ruins of Babylon" (Las Rozas City Council)' },
         { text: language === 'es' ? '2º Premio — "No es un juego" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : '2nd Prize — "Not a Game" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
         { text: language === 'es' ? 'Accésit — "A salvo" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : 'Honourable Mention — "Safe" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
@@ -123,7 +123,7 @@ const CV: React.FC = () => {
           group.items.map((item, index) => (
             <li key={`${group.year}-${index}`} className="flex gap-4">
               <span className="text-muted-foreground text-sm w-12 flex-shrink-0">{index === 0 ? group.year : ''}</span>
-              <span className={cn("text-foreground", item.highlight && "font-bold")}>{item.text}</span>
+              <span className={cn("text-foreground", item.highlight && "font-bold", item.accent && "text-blue-600 dark:text-blue-400")}>{item.text}</span>
             </li>
           ))
         )}
