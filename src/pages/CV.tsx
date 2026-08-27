@@ -64,8 +64,8 @@ const CV: React.FC = () => {
     { src: expoAutorretratoPandemia, alt: 'Autorretrato en tiempos de pandemia' },
     { src: expoArles, alt: 'Art-Icon Arles' },
     { src: expoRecorridosUrbanos, alt: 'Recorridos Urbanos PHE25' },
-    { src: expoPostcards, alt: 'Postcards — Images and Whispers, Garibaldi Gallery' },
     { src: expoHomes, alt: 'HOME-S — Photopolis Agrinio Photo Festival' },
+    { src: expoPostcards, alt: 'Postcards — Images and Whispers, Garibaldi Gallery' },
   ];
 
   const publications: CVItem[] = [
