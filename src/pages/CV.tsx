@@ -34,6 +34,7 @@ const CV: React.FC = () => {
     {
       year: '2026',
       items: [
+        { text: language === 'es' ? 'Mención de Honor — International Photography Awards (IPA) 2026, Fine Art / Other — Los que permanecen' : 'Honourable Mention — International Photography Awards (IPA) 2026, Fine Art / Other — Los que permanecen', highlight: true },
         { text: language === 'es' ? 'Beca Talento PhotoESPAÑA 2026–2027 — Los que permanecen' : 'PhotoESPAÑA Talent Grant 2026–2027 — Those Who Remain', highlight: true },
         { text: language === 'es' ? 'Pingyao International Photography Festival 2026 — Mujer X' : 'Pingyao International Photography Festival 2026 — Mujer X', accent: true },
         { text: language === 'es' ? '3º Premio — "Ruinas de Babilonia" (Ayto. Las Rozas)' : '3rd Prize — "Ruins of Babylon" (Las Rozas City Council)' },
