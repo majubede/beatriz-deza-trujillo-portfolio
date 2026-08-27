@@ -38,6 +38,7 @@ const CV: React.FC = () => {
         { text: language === 'es' ? '3º Premio — "Ruinas de Babilonia" (Ayto. Las Rozas)' : '3rd Prize — "Ruins of Babylon" (Las Rozas City Council)' },
         { text: language === 'es' ? '2º Premio — "No es un juego" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : '2nd Prize — "Not a Game" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
         { text: language === 'es' ? 'Accésit — "A salvo" (Asociación Solidaria Mundo Nuevo — Los Derechos de la Infancia)' : 'Honourable Mention — "Safe" (Asociación Solidaria Mundo Nuevo — Children\'s Rights)' },
+        { text: language === 'es' ? 'Pingyao International Photography Festival 2026 — Mujer X' : 'Pingyao International Photography Festival 2026 — Mujer X' },
       ],
     },
     {
